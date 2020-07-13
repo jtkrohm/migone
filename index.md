@@ -16,7 +16,7 @@
 
 	</head>
 
-	<body onload="startTime(); sectionTime();displayProducts(); getProducts();" >
+	<body onload="startTime(); sectionTime();" >
 		<!-- Nav Bar-->
 		<nav class="navbar">
 			<div class="navbar-center">
@@ -40,7 +40,7 @@
 		<!-- End of cart btn-->
 
         <!-- Banner -->
-        <header class="hero">
+        <header class="banner-background">
 			<div class="banner">
 				<h1 class="banner-title"> Connect With Vendors Nationwide</h1>
 					<button class="banner-btn"> Search Now </button>
