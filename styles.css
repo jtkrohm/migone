@@ -94,7 +94,7 @@ body {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 3rem;
-  width: 100%;
+  width: 99%;
 }
 .banner-btn {
   padding: 1rem 3rem;
