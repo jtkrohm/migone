@@ -20,7 +20,6 @@ body {
   overflow- x: hidden;
 }
 
-/* --------------- Navbar ---------------- */
 .navbar {
   position: sticky;
   top: 0;
@@ -57,10 +56,6 @@ body {
   color: var(--mainWhite);
   visibility: hidden;
 }
-/* --------------- End of Navbar ---------------- */
-
-
-/* --------------- Clock  ---------------- */
 
 .clock {
   font-family: 'Lato', sans-serif;
@@ -71,9 +66,6 @@ body {
   padding-bottom: 30px;
 }
 
-/* --------------- End of Clock ---------------- */
-
-/* --------------- Banner ---------------- */
 .banner-background {
   min-height: calc(100vh - 60px);
   background: url("../images/grocery.jpeg") center/cover no-repeat;
@@ -109,9 +101,6 @@ body {
   background: transparent;
   color: var(--primaryColor);
 }
-/* --------------- End of Hero ---------------- */
-
-/* --------------- Products ---------------- */
 
 .products {
   padding: 4rem 0;
@@ -199,10 +188,6 @@ body {
   text-align: center;
 }
 
-/* ---------------End of Products ---------------- */
-
-
-/* --------------- Cart ---------------- */
 .cart-overlay {
   position: fixed;
   top: 0;
@@ -250,7 +235,6 @@ body {
   letter-spacing: var(--mainSpacing);
   margin-bottom: 2rem;
 }
-/*---------- Cart Item -------------------- */
 .cart-item {
   display: grid;
   align-items: center;
@@ -287,7 +271,6 @@ body {
   cursor: pointer;
   font-size: 1.7rem;
 }
-/*---------- End of Cart Item -------------------- */
 
 .cart-footer {
   margin-top: 2rem;
@@ -299,4 +282,3 @@ body {
   margin-bottom: 1rem;
 }
 
-/* --------------- End of Cart ---------------- */
