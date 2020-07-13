@@ -92,7 +92,7 @@ body {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 3rem;
-  width: 95vw;
+  width: 99vw;
 }
 .banner-btn {
   padding: 1rem 3rem;
