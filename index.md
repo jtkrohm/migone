@@ -75,7 +75,7 @@
 			<!-- single store-->
 				<article class="product">
 					<div class="img-container">
-						<img src="./images/grocery.jpeg" alt="groceries" class="product-img">
+						<img src="./images/grocery.jpeg" alt="" class="product-img">
 						<button class="bag-btn" data-id="1"> Explore </button>
 					</div>
 					<h2> Store 1 </h2>
