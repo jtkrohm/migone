@@ -7,17 +7,13 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Migonecc: Shop Grenada</title>
 
-		<!-- custom css-->  
 		<link rel="stylesheet" href="css/styles.css" />
-
-		<!-- font awesome -->
 		<link rel="stylesheet" href="css/all.css" /> <!--load all styles -->
 		<script defer src="js/all.js"></script> <!--load all styles -->
 
 	</head>
 
 	<body onload="startTime(); sectionTime();" >
-		<!-- Nav Bar-->
 		<nav class="navbar">
 			<div class="navbar-center">
 				<span class="nav-icon">
