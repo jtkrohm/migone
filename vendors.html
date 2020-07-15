@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html> 
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Migone.cc: Grenada's Vendors Online</title>
+ 
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/all.css" /> 
+		<script defer src="./all.js"></script> 
+
+	</head>
+
+	<body onload="startTime(); sectionTime();" >
+		<nav class="navbar">
+			<div class="navbar-center">
+				<span class="nav-icon">
+					<i class="fas fa-bars"></i> 
+				</span>
+				<a href="./index.html"> <h2 class="nav-icon">Migone.cc</h2> </a>  <!--replace with logo -->
+				<div class="cart-btn"> <!-- add style for "search-btn" and "user-btn" -->
+					<span class="nav-icon">
+						<i class="fas fa-search"></i>
+					</span>
+					<div class="cart-items">0</div>
+				</div>
+			</div>
+		</nav>
+        	<section class="products">
+			<div class="section-title">
+				<h1>Our Vendors</h1>
+			</div>
+			<div class="products-center"> 
+			
+			</div>		
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<div class="section-title">
+				<h2 id="open-hours"> </h2>
+				<div id="clock" class="clock"></div> 
+			</div>
+			<div class="products-center">
+				<article class="product">
+					<div class="img-container">
+						<img src="./images/grocery.jpeg" alt="groceries" class="product-img">
+						<button class="bag-btn" data-id="1"> Explore </button>
+					</div>
+					<h2> Store 1 </h2>
+					<h4> closes at X pm </h4>
+				</article>
+
+			</div>		
+			<div class="cart-overlay">
+				<div class="cart">
+					<span class="close-cart">
+						<i class="fas fa-window-close"></i>
+					</span>
+					<h2> Your List </h2>
+					<div class="cart-content">
+						<div class="cart-item">			
+						<img  src="./images/grocery.jpeg" alt="product">
+						<div>						
+							<h4> Eggs </h4>
+							<h5> $20 </h5>				
+							<div class="remove-item"> remove </div>
+						</div>						
+						<div>
+							<i class="fas fa-chevron-up"> </i>
+							<p> 1 </p>
+							<i class="fas fa-chevron-down"> </i>	
+						</div>
+					</div>					
+					<div class="cart-footer">
+						<span class="cart-total"> <h3> Total : $ 0 </h3> </span>
+						<button class= "clear-cart 	banner-btn"> clear list </button>		
+					</div>
+				</div>
+			</div>	
+        	<script src="clock.js"> </script>	
+		<script src="app.js"> </script>
+        	<script src="open_section.js"> </script> 
+	</body>
+
+</html>
