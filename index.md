@@ -58,7 +58,6 @@
 			<div id="clock" class="clock"></div> 
 
 			</div>
-			<!-- duplicate the products class for closing soon section -->
 			<div class="products-center">
 			<!-- single store-->
 				<article class="product">
@@ -98,7 +97,7 @@
 				</div>
 			</div>	
         <script src="clock.js"> </script>	
-	    <script src="app.js"> </script>
+	<script src="app.js"> </script>
         <script src="open_section.js"> </script> 
 	</body>
 
