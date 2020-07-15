@@ -31,7 +31,7 @@
                 <header class="banner-background">
 			<div class="banner">
 				<h1 class="banner-title"> Connect With Grenada's Vendors</h1>
-					<button class="banner-btn"><a href="vendors.html" Explore </a> </button>
+					<button class="banner-btn"><a href="vendors.html"> Explore </a> </button>
 			</div>
 		</header>
 		<section class="products">
