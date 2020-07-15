@@ -32,22 +32,12 @@
 				</div>
 			</div>
 		</nav>
-		<!-- End of Nav Bar-->
-
-		<!-- Cart icon will be sticky button on the top right of the page-->
-
-		<!-- cart btn-->
-		<!-- End of cart btn-->
-
-        <!-- Banner -->
         <header class="banner-background">
 			<div class="banner">
-				<h1 class="banner-title"> Connect With Vendors Nationwide</h1>
+				<h1 class="banner-title"> Connect With Grenada's Vendors</h1>
 					<button class="banner-btn"> Search Now </button>
 			</div>
 		</header>
-		<!-- End of Banner-->
-		<!-- Stores Section-->
 		<section class="products">
 			<div class="section-title">
 				<h1> What's In Stock</h1>
@@ -55,7 +45,6 @@
 			<div class="products-center">
 		
 			</div>		
-			<!-- end of stores section -->
 			<br>
 			<br>
 			<br>
@@ -64,7 +53,6 @@
 			<br>
 			<br>
 			<br>
-			<!-- New Section -->
 			<div class="section-title">
 			<h2 id="open-hours"> </h2>
 			<div id="clock" class="clock"></div> 
@@ -83,8 +71,6 @@
 				</article>
 				<!-- end of single store -->
 			</div>		
-			
-     		<!-- cart-->
 			<div class="cart-overlay">
 				<div class="cart">
 					<span class="close-cart">
@@ -92,7 +78,6 @@
 					</span>
 					<h2> Your List </h2>
 					<div class="cart-content">
-					<!-- Cart Item --> 
 					<div class="cart-item">						
 						<img  src="./images/grocery.jpeg" alt="product">
 						<div>							
@@ -110,8 +95,6 @@
 						<span class="cart-total"> <h3> Total : $ 0 </h3> </span>
 						<button class= "clear-cart 	banner-btn"> clear list </button>		
 					</div>
-				
-				<!-- end of cart-->
 				</div>
 			</div>	
         <script src="clock.js"> </script>	
