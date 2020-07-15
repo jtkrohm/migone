@@ -59,7 +59,6 @@
 
 			</div>
 			<div class="products-center">
-			<!-- single store-->
 				<article class="product">
 					<div class="img-container">
 						<img src="./images/grocery.jpeg" alt="" class="product-img">
@@ -68,7 +67,6 @@
 					<h2> Store 1 </h2>
 					<h4> closes at X pm </h4>
 				</article>
-				<!-- end of single store -->
 			</div>		
 			<div class="cart-overlay">
 				<div class="cart">
