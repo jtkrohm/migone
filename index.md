@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Migonecc: Shop Grenada</title>
 
@@ -28,10 +28,10 @@
 				</div>
 			</div>
 		</nav>
-        <header class="banner-background">
+                <header class="banner-background">
 			<div class="banner">
 				<h1 class="banner-title"> Connect With Grenada's Vendors</h1>
-					<button class="banner-btn"> Search Now </button>
+					<button class="banner-btn"><a href="vendors.html" Explore </a> </button>
 			</div>
 		</header>
 		<section class="products">
