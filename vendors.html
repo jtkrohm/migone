@@ -9,18 +9,20 @@
  
 		<link rel="stylesheet" href="./css/styles.css" />
 		<link rel="stylesheet" href="./css/all.css" /> 
-		<script defer src="./js/all.js"></script> 
+		<script defer src="./all.js"></script> 
+
+
 
 	</head>
 
-	<body onload="startTime(); sectionTime();" >
+	<body>
 		<nav class="navbar">
 			<div class="navbar-center">
 				<span class="nav-icon">
 					<i class="fas fa-bars"></i> 
 				</span>
-				<a href="./index.html"> <h2 class="nav-icon">Migone.cc</h2> </a>  <!--replace with logo -->
-				<div class="cart-btn"> <!-- add style for "search-btn" and "user-btn" -->
+				<a href="./index.html"> <h2 class="nav-icon">Migone.cc</h2> </a>  
+				<div class="cart-btn"> 
 					<span class="nav-icon">
 						<i class="fas fa-search"></i>
 					</span>
@@ -28,7 +30,7 @@
 				</div>
 			</div>
 		</nav>
-        	<section class="products">
+        <section class="products">
 			<div class="section-title">
 				<h1>Our Vendors</h1>
 			</div>
@@ -42,16 +44,15 @@
 					<h4> Contact: 409-1240 </h4>
 				</article> 
 			</div>		
-			
-					
-			<div class="cart-overlay">
-				<div class="cart">
-					<span class="close-cart">
-						<i class="fas fa-window-close"></i>
-					</span>
-					<h2> Your List </h2>
-					<div class="cart-content">
-						<div class="cart-item">			
+		</section>
+		<div class="cart-overlay">
+			<div class="cart">
+				<span class="close-cart">
+					<i class="fas fa-window-close"></i>
+				</span>
+				<h2> Your List </h2>
+				<div class="cart-content">
+					<div class="cart-item">			
 						<img  src="./images/grocery.jpeg" alt="product">
 						<div>						
 							<h4> Eggs </h4>
@@ -70,9 +71,19 @@
 					</div>
 				</div>
 			</div>	
-        	<script src="js/clock.js"> </script>	
-		<script src="js/app.js"> </script>
-        	<script src="js/open_section.js"> </script> 
-	</body>
+		</div> 
+		<footer class="page-footer">
+                  <p> Copyright &copy; <span> <script>document.write(new Date().getFullYear());</script> </span> </p> 
+  
+                  <p> <a href="privacy.html">Privacy </a> </p>
 
+                  <p> <a href="contact.html">Contact </a> </p>
+  
+                  <p> <a href="terms.html">Terms and Agreements </a> </p>
+ 
+                  <!--  sitemap 
+                  social -->
+		</footer>
+		<script src="js/vendors.js"> </script>
+	</body>
 </html>
