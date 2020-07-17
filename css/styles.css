@@ -21,7 +21,7 @@ body {
   overflow- x: hidden;
 }
 
-.body a {
+body a {
  text-decoration: none;
  color:blue;
 }
@@ -223,6 +223,7 @@ body {
 .transparentBcg {
   visibility: visible;
 }
+
 @media screen and (min-width: 768px) {
   .cart {
     width: 30vw;
@@ -293,4 +294,8 @@ body {
  width: 100%;
  text-align: center;
  background: var(--primaryColor); 
+}
+
+.page-footer {
+ font-size:0.5rem;
 }
