@@ -28,7 +28,7 @@ body a {
 .navbar {
   position: sticky;
   top: 0;
-  height: 90px;
+  height: 70px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -188,11 +188,18 @@ body a {
 
 .product h4 {
   margin-top: 0.7rem;
+  font-size:0.8rem;
   letter-spacing: var(--mainSpacing);
   color: var(--primaryColor);
   text-align: center;
 }
-
+.product h5 {
+  margin-top: 0.5rem;
+  font-size:0.6rem;
+  letter-spacing: var(--mainSpacing);
+  color: var(--primaryColor);
+  text-align: center;
+}
 .cart-overlay {
   position: fixed;
   top: 0;
@@ -223,7 +230,6 @@ body a {
 .transparentBcg {
   visibility: visible;
 }
-
 @media screen and (min-width: 768px) {
   .cart {
     width: 30vw;
@@ -294,8 +300,5 @@ body a {
  width: 100%;
  text-align: center;
  background: var(--primaryColor); 
-}
-
-.page-footer {
  font-size:0.5rem;
 }
