@@ -302,3 +302,7 @@ body a {
  background: var(--primaryColor); 
  font-size:0.7rem;
 }
+
+.page-footer i {
+ font-size: 1.2rem;
+}
