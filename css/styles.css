@@ -224,6 +224,22 @@ body a {
   transition: var(--mainTransition);
   transform: translateX(100%); 
 }
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  z-index: 3;
+  background: rgb(231, 226, 221);
+  padding: 1.5rem;
+  transition: var(--mainTransition);
+  transform: translateX(-100%); 
+}
+
+
 .showCart {
   transform: translateX(0);
 }
@@ -231,7 +247,7 @@ body a {
   visibility: visible;
 }
 @media screen and (min-width: 768px) {
-  .cart {
+  .cart, .menu {
     width: 30vw;
     min-width: 450px;
   }
