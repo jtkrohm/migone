@@ -238,7 +238,10 @@ body a {
   background: rgb(231, 226, 221);
   padding: 1rem;
   transition: var(--mainTransition);
-  transform: translateX(100%); 
+  transform: translateX(-500); 
+}
+.nav-icon:hover .menu {
+ transform: translateX(0);
 }
 .showMenu {
   transform: translateX(0);
