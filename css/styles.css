@@ -240,7 +240,7 @@ body a {
   transition: var(--mainTransition);
   //transform: translateX(100%); 
 }
-.menu-icon:hover .menu {
+.showMenu {
   transform: translateX(0);
 }
 .menu-overlay {
