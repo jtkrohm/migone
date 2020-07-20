@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 :root {
-  --secondaryColor: #f09d51 /*gradient color green, blue, red */
+  --secondaryColor: #f09d51; /*gradient color green, blue, red */
   --primaryColor: #33cc00;
   --mainWhite: #fff;
   --mainBlack: #222;
