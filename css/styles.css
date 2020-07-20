@@ -45,7 +45,7 @@ body a {
   justify-content: space-between;
   padding: 0 1.5rem;
 }
-.navbar-center h2 {
+.navbar-center a {
  text-shadow:
     -1px -1px 0 #FFF,
      1px -1px 0 #FFF,
