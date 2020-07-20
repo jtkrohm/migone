@@ -231,14 +231,14 @@ body a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 40%;
+  width: 30%;
   height: 100%;
   overflow: scroll;
   z-index: 3;
   background: rgb(231, 226, 221);
   padding: 1rem;
   transition: var(--mainTransition);
-  //transform: translateX(100%); 
+  transform: translateX(100%); 
 }
 .showMenu {
   transform: translateX(0);
@@ -252,7 +252,7 @@ body a {
   transition: var(--mainTransition);
   background: rgba(240, 157, 81, 0.5);
   z-index: 2;
-//  visibility: hidden;
+  visibility: hidden;
 }
 
 .showCart {
