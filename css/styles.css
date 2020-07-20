@@ -238,10 +238,10 @@ body a {
   background: rgb(231, 226, 221);
   padding: 1rem;
   transition: var(--mainTransition);
-  transform: translateX(-100%); 
+  transform: translateX(-200%); 
 }
 .menu-icon:hover .menu {
-  transform: translateX(100%);
+  transform: translateX(200%);
 }
 .menu-overlay {
   position: fixed;
@@ -252,7 +252,7 @@ body a {
   transition: var(--mainTransition);
   background: rgba(240, 157, 81, 0.5);
   z-index: 2;
- // visibility: hidden;
+  visibility: hidden;
 }
 
 .showCart {
