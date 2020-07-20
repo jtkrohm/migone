@@ -25,11 +25,6 @@ body {
 body a {
  text-decoration: none;
  color: var(--mainRed);
- text-shadow:
-    -1px -1px 0 #FFF,
-    1px -1px 0 #FFF,
-    -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;
 }
 .navbar {
   position: sticky;
@@ -49,6 +44,13 @@ body a {
   align-items: center;
   justify-content: space-between;
   padding: 0 1.5rem;
+}
+.navbar-center h2 {
+ text-shadow:
+    -1px -1px 0 #FFF,
+     1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+     1px 1px 0 #FFF;
 }
 .nav-icon {
   font-size: 2.2rem;
