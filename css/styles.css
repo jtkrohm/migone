@@ -62,7 +62,7 @@ div.scrollmenu {
 div.scrollmenu a {
   display: inline-block;
   text-align: center;
-  padding: 14px;
+  //padding: 1rem;
   color: var(--mainRed);
   font-size: 1.5rem;
 }
