@@ -243,15 +243,15 @@ body a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 30%;
+  width: 33%;
   height: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
   z-index: 3;
   background: rgb(231, 226, 221);
   padding: 1rem;
   text-color: var(--mainBlack);
   transition: var(--mainTransition);
-  transform: translateX(-500); 
+//  transform: translateX(-500); 
 }
 .nav-icon:hover .menu {
  transform: translateX(0);
@@ -268,7 +268,7 @@ body a {
   transition: var(--mainTransition);
   background: rgba(51,204,0, 0.5);
   z-index: 2;
-  visibility: hidden;
+  //visibility: hidden;
 }
 
 .showCart {
