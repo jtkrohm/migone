@@ -71,13 +71,6 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: #777;
 }
-div.scrollmenu h5, div.scrollmenu h6 {
-text-shadow:
-    -1px -1px 0 #FFF,
-     1px -1px 0 #FFF,
-    -1px 1px 0 #FFF,
-     1px 1px 0 #FFF;
-}
 .nav-icon {
   font-size: 2.2rem;
   text-color: var(--mainBlack);
