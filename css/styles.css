@@ -168,7 +168,10 @@ body a {
   cursor: pointer;
 }
 .bag-btn:hover {
-  color: var(--mainGrey);
+  background: transparent;
+  color: var(--primaryColor);
+}
+
 }
 .fa-shopping-cart {
   margin-right: 0.5rem;
@@ -253,7 +256,7 @@ body a {
   transition: var(--mainTransition);
 //  transform: translateX(-500); 
 }
-.nav-icon:hover .menu {
+.menu-icon:hover .menu {
  transform: translateX(0);
 }
 .showMenu {
