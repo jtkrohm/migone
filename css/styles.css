@@ -2,7 +2,7 @@
 
 :root {
   --secondaryColor: #f09d51; /*gradient color green, blue, red */
-  --primaryColor: #33cc00;
+  --primaryColor: #4a5d23;
   --mainWhite: #fff;
   --mainBlack: #222;
   --mainGrey: #ececec;
@@ -89,7 +89,7 @@ body a {
   background: rgba(255, 255, 255, 0.8);
   display: inline-block;
   padding: 2rem;
-  overflow- x: hidden;
+  overflow-x: hidden;
 }
 .banner-title {
   font-size: 3.2rem;
