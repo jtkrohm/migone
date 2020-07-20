@@ -129,7 +129,7 @@ body a {
   font-size: 2.5rem;
   margin-bottom: 4rem;
   text-transform: capitalize;
-  text-color: vsr(--mainBlack);
+  text-color: var(--mainBlack);
   letter-spacing: var(--mainSpacing);
 }
 .section-title h2 {
@@ -253,7 +253,7 @@ body a {
   padding: 1rem;
   text-color: var(--mainBlack);
   transition: var(--mainTransition);
-//  transform: translateX(-500); 
+  transform: translateX(-500); 
 }
 .menu h1, h2 {
 text-shadow:
@@ -277,7 +277,7 @@ text-shadow:
   transition: var(--mainTransition);
   background: rgba(51,204,0, 0.1);
   z-index: 2;
-  //visibility: hidden;
+  visibility: hidden;
 }
 
 .showCart {
