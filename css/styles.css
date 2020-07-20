@@ -25,6 +25,11 @@ body {
 body a {
  text-decoration: none;
  color: var(--mainRed);
+ text-shadow:
+    -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
 }
 .navbar {
   position: sticky;
