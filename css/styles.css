@@ -255,7 +255,7 @@ body a {
   transition: var(--mainTransition);
   transform: translateX(-500); 
 }
-.menu h1, h2 {
+.menu h1, .menu h2 {
 text-shadow:
     -1px -1px 0 #FFF,
      1px -1px 0 #FFF,
