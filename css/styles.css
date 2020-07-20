@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 :root {
-  --secondaryColor: #8B0000;  /*gradient color green, blue, red */
-  --primaryColor: #f09d51;
+  --secondaryColor: #f09d51 /*gradient color green, blue, red */
+  --primaryColor: green;
   --mainWhite: #fff;
   --mainBlack: #222;
   --mainGrey: #ececec;
+  --mainRed: #8B0000;
   --mainSpacing: 0.1rem;
   --mainTransition: all 0.3s linear;
 }
@@ -16,14 +17,14 @@
 }
 body {
   color: var(--mainBlack);
-  background: var(--mainWhite);
+  background: var(--mainGrey);
   font-family: "Lato", sans-serif;
   overflow- x: hidden;
 }
 
 body a {
  text-decoration: none;
- color:blue;
+ color: var(--mainGrey);
 }
 .navbar {
   position: sticky;
@@ -32,7 +33,7 @@ body a {
   width: 100%;
   display: flex;
   align-items: center;
-  background: var(--secondaryColor);
+  background: var(--primaryColor);
   z-index: 1; /* the z index ensures that the nav bar doesn't fall behind the content of the page */
 }
 .navbar-center {
@@ -58,10 +59,10 @@ body a {
   position: absolute;
   top: -10px;
   right: -10px;
-  background: var(--primaryColor);
+  background: var(--mainGrey);
   padding: 0 5px;
   border-radius: 30%;
-  color: var(--mainWhite);
+  color: var(--mainBlack);
   visibility: hidden;
 }
 
@@ -100,7 +101,7 @@ body a {
   letter-spacing: var(--mainSpacing);
   font-size: 1rem;
   background: var(--primaryColor);
-  color: var(--mainBlack);
+  color: var(--mainGrey);
   border: 1px solid var(--primaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
@@ -210,7 +211,7 @@ body a {
   width: 100%;
   height: 100%;
   transition: var(--mainTransition);
-  background: rgba(240, 157, 81, 0.5);
+  background: rgba(240, 157, 81, 0.5); /*change */
   z-index: 2;
   visibility: hidden;
 }
@@ -222,7 +223,7 @@ body a {
   height: 100%;
   overflow: scroll;
   z-index: 3;
-  background: rgb(231, 226, 221);
+  background: rgb(231, 226, 221); /* grey */
   padding: 1.5rem;
   transition: var(--mainTransition);
   transform: translateX(100%); 
@@ -342,7 +343,7 @@ body a {
  bottom: 0;
  width: 100%;
  text-align: center;
- background: var(--secondaryColor); 
+ background: var(--mainGrey); 
  font-size:0.9rem;
 }
 
