@@ -28,7 +28,7 @@ body a {
 .navbar {
   position: sticky;
   top: 0;
-  height: 70px;
+  height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@ div.scrollmenu {
   background-color: var(--primaryColor);
   overflow: auto;
   white-space: nowrap;
-  height: 25px;
+  height: 35px;
 }
 div.scrollmenu a {
   display: inline-block;
