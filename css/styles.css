@@ -47,6 +47,9 @@ body a {
 .nav-icon {
   font-size: 2.2rem;
 }
+.menu-icon {
+  font-size: 2.2rem;
+}
 .cart-btn {
   position: relative;
   cursor: pointer;
@@ -228,14 +231,17 @@ body a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 33%;
+  width: 40%;
   height: 100%;
   overflow: scroll;
   z-index: 3;
   background: rgb(231, 226, 221);
-  padding: 1.5rem;
+  padding: 1rem;
   transition: var(--mainTransition);
- // transform: translateX(-100%); 
+  transform: translateX(-40%); 
+}
+.menu-icon:hover .menu {
+  transform: translateX(40%);
 }
 .menu-overlay {
   position: fixed;
