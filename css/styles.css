@@ -57,7 +57,7 @@ div.scrollmenu {
   overflow: auto;
   white-space: nowrap;
   top: 115px;
-  max-height: 25px;
+  height: 25px;
 }
 
 div.scrollmenu a {
