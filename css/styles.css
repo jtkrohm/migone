@@ -60,6 +60,7 @@ body a {
  max-height: 10px;
  background: var(--primaryColor);
  color: var(--primaryColor);
+ display: flex;
  justify-content:space-between;
  z-index: 1;
 }
