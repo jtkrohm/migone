@@ -59,6 +59,7 @@ div.scrollmenu {
   position: absolute;
   top: 85px;
   max-height: 15px;
+  z-index: 1;
 }
 
 div.scrollmenu a {
