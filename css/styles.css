@@ -53,7 +53,7 @@ body a {
      1px 1px 0 #FFF;
 }
 div.scrollmenu {
-  background-color: var(--mainGrey);
+  background-color: var(--primaryColor);
   overflow: auto;
   white-space: nowrap;
   height: 25px;
