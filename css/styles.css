@@ -228,7 +228,7 @@ body a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 33%;
   height: 100%;
   overflow: scroll;
   z-index: 3;
@@ -318,7 +318,16 @@ body a {
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
-
+.menu-header {
+ display: flex;
+ justify-content: space-between;
+}
+ 
+.menu-footer {
+ margin-top: 2rem;
+ letter-spacing: var(--mainSpacing);
+ text-align: left;
+}
 .page-footer {
  position: relative; 
  bottom: 0;
