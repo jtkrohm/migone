@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 :root {
-  --secondaryColor: #f09d51; /*gradient color green, blue, red */
+  --secondaryColor: #f09d51; 
   --primaryColor: #4a5d23;
   --mainWhite: #fff;
   --mainBlack: #222;
@@ -21,7 +21,6 @@ body {
   font-family: "Lato", sans-serif;
   overflow- x: hidden;
 }
-
 body a {
  text-decoration: none;
  color: var(--mainRed);
@@ -65,7 +64,6 @@ div.scrollmenu a {
   display: inline-block;
   text-align: center;
   padding: 14px;
-  text-decoration: none;
 }
 
 div.scrollmenu a:hover {
