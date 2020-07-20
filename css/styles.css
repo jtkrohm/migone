@@ -34,7 +34,6 @@ body a {
   display: flex;
   align-items: center;
   background: var(--primaryColor);
-  background-image: linear-gradient(to bottom right,var(--primaryColor,var(--maingrey));
   z-index: 1; /* the z index ensures that the nav bar doesn't fall behind the content of the page */
 }
 .navbar-center {
