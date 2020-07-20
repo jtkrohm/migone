@@ -72,11 +72,11 @@ div.scrollmenu a:hover {
 }
 .nav-icon {
   font-size: 2.2rem;
-  text-color: var(--mainBlack);
+  text-color: var(--mainGrey);
 }
 .menu-icon {
   font-size: 2.2rem;
-  text-colour: var(--mainBlack);
+  text-colour: var(--mainGrey);
 }
 .cart-btn {
   position: relative;
@@ -128,17 +128,12 @@ div.scrollmenu a:hover {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   font-size: 1rem;
-  background: var(--primaryColor);
+  background: transparent;
   color: var(--primaryColor);
   border: 1px solid var(--primaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
 }
-.banner-btn:hover {
-  background: transparent;
-  color: var(--primaryColor);
-}
-
 .products {
   padding: 4rem 0;
 }
@@ -161,7 +156,7 @@ div.scrollmenu a:hover {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
-  display: grid;
+  display: grid; //or same as scrollmenu 
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
@@ -175,7 +170,7 @@ div.scrollmenu a:hover {
   position: absolute;
   top: 70%;
   right: 0;
-  background: var(--primaryColor);
+  background: transparent;
   border: 1px solid var(--primaryColor);
   text-transform: uppercase;
   padding: 0.5rem 0.75rem;
@@ -185,11 +180,6 @@ div.scrollmenu a:hover {
   transform: translateX(101%);
   cursor: pointer;
 }
-.bag-btn:hover {
-  background: transparent;
-  color: var(--primaryColor);
-}
-
 .fa-shopping-cart {
   margin-right: 0.5rem;
 }
@@ -327,15 +317,6 @@ div.scrollmenu a:hover {
 .cart-footer h3 {
   text-transform: capitalize;
   margin-bottom: 1rem;
-}
-.menu-header {
- display: flex;
- justify-content: space-between;
-}
-.menu-footer {
- margin-top: 2rem;
- letter-spacing: var(--mainSpacing);
- text-align: center;
 }
 .page-footer {
  position: relative; 
