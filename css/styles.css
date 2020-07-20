@@ -58,6 +58,7 @@ body a {
  overflow-y: hidden;
  white-space: nowrap;
  width: 100%;
+ top: 70px;
  height: 10px;
  max-height: 10px;
  background: var(--primaryColor);
