@@ -13,7 +13,7 @@ function sectionTime() {
   m = checkTime(m);
   s = checkTime(s);
   if (h > 16) {openHourTitle = 'Closing Soon'} ;
-  if (h < 11) {openHourTitle = 'Opening Soon'} ;
+  if (h < 10) {openHourTitle = 'Opening Soon'} ;
   document.getElementById('open-hours').innerHTML =
   openHourTitle; 
 }
