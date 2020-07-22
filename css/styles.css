@@ -33,7 +33,7 @@ body a {
   display: flex;
   align-items: center;
   background: var(--primaryColor);
-  background-image: linear-gradient(to bottom right,var(--primaryColor),var(--maingrey));
+  //background-image: linear-gradient(to bottom right,var(--primaryColor),var(--maingrey));
   z-index: 1; /* the z index ensures that the nav bar doesn't fall behind the content of the page */
 }
 .navbar-center {
@@ -60,16 +60,17 @@ body a {
       rgba(0, 0, 0, 0.75), 
       rgba(0, 0, 0, 0));
 }
-div.scrollmenu {
-  background-color: var(--primaryColor);
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-  height: 35px;
+div.scrollmenu { 
+  background-color: var(--primaryColor); 
+  overflow-x: auto; 
+  overflow-y: hidden; 
+  white-space: nowrap; 
+  height: 35px; 
+  display: flex; 
   align-items: center;
 }
 div.scrollmenu a {
-  display: flex; //inline-block
+  display: inline-block
   text-align: center;
   padding: 0.4rem 1rem;
   color: var(--mainRed);
