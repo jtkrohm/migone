@@ -1,4 +1,4 @@
-let prodList = [
+const prodList = [
 "Bananas", "Bluggoes", "Breadfruit", "Butternut Squash", 
 "Cabbages", "Callaloo", "Cantiloupe", "Carrots", 
 "Celery", "Chive & thyme", "Christophene", "Coconut", 
@@ -10,8 +10,7 @@ let prodList = [
 
 /* {"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"price"}]},*/
   
-let prodJSON = '{"product":[{"item":"Bananas","picture":"path/to/picture", 
-"vendor":[{"name":"John","price":20}]}, 
+let prodJSON = '{"product":[{"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Bluggoes","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Breadfruit","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
@@ -48,8 +47,10 @@ let prodJSON = '{"product":[{"item":"Bananas","picture":"path/to/picture",
  {"item":"Whole Chicken","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Yam","picture":"path/to/picture","vendor":[{"name":"John","price":20}]},
  ]};
+
 let prodObj = JSON.parse(prodJSON);
 
-document.getElementById("products").innerHTML= prodObj.product.vendor.name;
-
+function test() {
+document.getElementById("products").innerHTML=  "Vendor @ St.Paul's" ;
+}
 

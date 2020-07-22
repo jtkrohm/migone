@@ -98,7 +98,8 @@ div.scrollmenu a:hover {
   padding: 0 5px;
   border-radius: 30%;
   color: var(--primaryColor);
-  visibility: hidden;
+//  visibility: hidden;
+  font-size: 0.6rem;
 }
 
 .clock {
