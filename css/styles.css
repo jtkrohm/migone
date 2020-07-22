@@ -66,6 +66,7 @@ div.scrollmenu {
   overflow-y: hidden;
   white-space: nowrap;
   height: 35px;
+  align-items: center;
 }
 div.scrollmenu a {
   display: inline-block;
