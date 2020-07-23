@@ -80,6 +80,12 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: transparent;
 }
+
+@media screen and (min-width: 768px) {
+div.scrollmenu a {
+  padding:0.4rem 5rem; }
+}
+
 .nav-icon {
   font-size: 2.2rem;
   text-color: var(--mainGrey);
