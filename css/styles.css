@@ -83,7 +83,7 @@ div.scrollproducts {
   overflow-y: auto; 
   white-space: nowrap; 
   max-height: 450px;
-  padding: 0 0.8rem;
+  padding: 0 0.3rem;
   display: flex; 
   align-items: center;
 }
@@ -91,7 +91,7 @@ div.scrollproducts div {
   display: inline-block
   align-items: center;
   width: 300px;
-  padding: 0 0 0 0.3rem;
+  padding: 0 0 0 0.6rem;
 }
 div.scrollproducts h2 {
   text-transform: capitalize;
