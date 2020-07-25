@@ -35,6 +35,9 @@ body a {
   background: var(--primaryColor);
   z-index: 1; /* the z index ensures that the nav bar doesn't fall behind the content of the page */
 }
+.navbar h2 {
+  font-size: 2.3rem;
+}
 .navbar-center {
   width: 100%;
   max-width: 1170px; 
@@ -42,7 +45,7 @@ body a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1.5rem;
+  padding: 0 0.5rem;
 }
 .navbar-center a {
  text-shadow:
@@ -85,7 +88,7 @@ div.scrollmenu a {
   padding:0.4rem 5rem; }
 }
 .menu-icon {
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   text-colour: var(--mainGrey);
   position: relative;
   cursor: pointer;
@@ -95,22 +98,19 @@ span.search-box {
    background: var(--mainWhite);
    height: 2.2rem;
    border-radius: 2.2rem;
-   padding: 2px;
+   padding:0.1rem 0.2rem 0.2rem 0.2rem;
    position: relative;
    cursor: pointer;
+   //visibility: hidden;
 }
-span.search-box:hover > search-txt {
-   width: 240px;
-   padding: 0 5px;
-}
-span.search-box:hover > search-btn {
-   background: var(--mainWhite);
+span.search-box a:hover search-txt {
+   width: 6rem;
 }
 .search-btn {
-   color: var(--primaryColor);
+   color: var(--mainBlack);
    float: right;
-   width: 2.2re.;
-   height: 2.2rem;
+   width: 2.2rem;
+   height: 2rem;
    border-radius: 50%;
    background: var(--mainWhite);
    display:flex;
@@ -121,19 +121,21 @@ span.search-box:hover > search-btn {
    cursor: pointer;
 }
 #search {
-   font-size: 2.2rem;
+   font-size: 1.4rem;
+   color: var(--primaryColor);
 }
+
 .search-txt {
    border: none;
    background: none;
    outline: none;
    float: left;
-   padding: 0;
-   color: var(--mainWhite);
-   font-size: 16px;
+   padding: 0 0.2rem 0.3rem 0.4rem;
+   color: var(--mainBlack);
+   font-size: 1.5rem;
    transition: var(--mainTransition);
-   line-height: 40px;
-   width: 0px;
+   line-height: 2rem;
+   width: 0;
 }
 .cart-btn {
   position: relative;
@@ -147,7 +149,7 @@ span.search-box:hover > search-btn {
   padding: 0 4px;
   border-radius: 30%;
   color: var(--primaryColor);
-//  visibility: hidden;
+  visibility: hidden;
   font-size: 0.5rem;
 }
 
