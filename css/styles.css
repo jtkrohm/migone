@@ -82,9 +82,13 @@ div.scrollproducts {
   overflow-x: auto; 
   overflow-y: hidden; 
   white-space: nowrap; 
-  height: 125px;
+  max-height: 450px;
+  max-width: 500px;
   display: flex; 
   align-items: center;
+}
+div.scrollproducts div {
+  display: inline-block
 }
 div.scrollproducts h2 {
   text-transform: capitalize;
@@ -257,6 +261,7 @@ span.search-box a:hover search-txt {
   position: relative;
   overflow: hidden;
   max-height: 450px;
+  max-width: 500px;
 }
 .bag-btn {
   position: absolute;
