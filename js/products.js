@@ -10,7 +10,7 @@ const prodList = [
 
 /* {"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"price"}]},*/
   
-let prodJSON = '{"product":[{"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
+let prodJSON = '{"product":{{"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Bluggoes","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Breadfruit","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
@@ -46,7 +46,7 @@ let prodJSON = '{"product":[{"item":"Bananas","picture":"path/to/picture","vendo
  {"item":"Watermelons","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Whole Chicken","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Yam","picture":"path/to/picture","vendor":[{"name":"John","price":20}]},
- ]};
+ }};
 
 let prodObj = JSON.parse(prodJSON);
 
