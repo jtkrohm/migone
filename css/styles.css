@@ -78,7 +78,15 @@ div.scrollmenu a {
   color: var(--mainRed);
   font-size: 1.5rem;
 }
-
+div.scrollmenu { 
+  overflow-x: auto; 
+  overflow-y: hidden; 
+  white-space: nowrap; 
+  height: 125px; 
+  width: 140px;
+  display: flex; 
+  align-items: center;
+}
 @media screen and (min-width: 768px) {
 div.scrollmenu a {
   padding:0.4rem 5rem; }
