@@ -87,12 +87,13 @@ div.scrollmenu a:hover {
 div.scrollmenu a {
   padding:0.4rem 5rem; }
 }
+
 .menu-icon {
   font-size: 2.2rem;
   text-colour: var(--mainGrey);
   position: relative;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 span.search-box {
    //transform: translate( -50%, -50%);
    background: var(--mainWhite);
@@ -102,13 +103,18 @@ span.search-box {
    position: relative;
    cursor: pointer;
 }
-span.search-box:hover > search-txt {
+span.search-box:hover > .search-txt {
    width: 240px;
    padding: 0 5px;
 }
-span.search-box:hover > search-btn {
+span.search-box:hover > .search-btn {
    background: var(--mainWhite);
 }
+
+span.search-box:hover > .logo-rest {
+  visibility: hidden;
+  transition: var(--mainTransition; }
+
 .search-btn {
    color: var(--primaryColor);
    float: right;
