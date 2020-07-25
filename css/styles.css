@@ -90,7 +90,7 @@ div.scrollmenu a {
   position: relative;
   cursor: pointer;
 }
-.search-box {
+span.search-box {
    //transform: translate( -50%, -50%);
    background: var(--mainWhite);
    height: 2.2rem;
@@ -99,11 +99,11 @@ div.scrollmenu a {
    position: relative;
    cursor: pointer;
 }
-.search-box:hover > search-txt {
+span.search-box:hover > search-txt {
    width: 240px;
    padding: 0 5px;
 }
-.search-box:hover > search-btn {
+span.search-box:hover > search-btn {
    background: var(--mainWhite);
 }
 .search-btn {
@@ -111,7 +111,7 @@ div.scrollmenu a {
    float: right;
    width: 2.2re.;
    height: 2.2rem;
-   border-radius: 20%;
+   border-radius: 50%;
    background: var(--mainWhite);
    display:flex;
    justify-content: center;
