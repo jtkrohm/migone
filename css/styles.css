@@ -88,13 +88,15 @@ div.scrollmenu a {
 .menu-icon {
   font-size: 2.2rem;
   text-colour: var(--mainGrey);
+  position: relative;
+  cursor: pointer;
 }
 .search-box {
-   transform: translate( -50%, -50%);
+   //transform: translate( -50%, -50%);
    background: var(--mainWhite);
    height: 40px;
    border-radius: 40px;
-   padding: 5px;
+   padding: 2px;
 }
 .search-box:hover > search-txt {
    width: 240px;
@@ -114,6 +116,8 @@ div.scrollmenu a {
    justify-content: center;
    align-items: center;
    transition: var(--mainTransition);
+   position: relative;
+   cursor: pointer;
 }
 
 .search-txt {
