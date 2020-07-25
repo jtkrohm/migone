@@ -89,12 +89,7 @@ div.scrollmenu a {
   font-size: 2.2rem;
   text-colour: var(--mainGrey);
 }
-
-
 .search-box {
-   position:absolute;
-   top: 50%;
-   left: 50%;
    transform: translate( -50%, -50%);
    background: var(--mainWhite);
    height: 40px;
