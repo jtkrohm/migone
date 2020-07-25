@@ -33,7 +33,6 @@ body a {
   display: flex;
   align-items: center;
   background: var(--primaryColor);
-  //background-image: linear-gradient(to bottom right,var(--primaryColor),var(--maingrey));
   z-index: 1; /* the z index ensures that the nav bar doesn't fall behind the content of the page */
 }
 .navbar-center {
@@ -113,7 +112,7 @@ div.scrollmenu a {
    width: 2.2re.;
    height: 2.2rem;
    border-radius: 20%;
-   background: var(--mainGrey);
+   background: var(--mainWhite);
    display:flex;
    justify-content: center;
    align-items: center;
@@ -121,7 +120,9 @@ div.scrollmenu a {
    position: relative;
    cursor: pointer;
 }
-
+#search {
+   font-size: 2.2rem;
+}
 .search-txt {
    border: none;
    background: none;
