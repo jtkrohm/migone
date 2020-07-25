@@ -91,7 +91,7 @@ div.scrollproducts div {
   display: inline-block
   align-items: center;
   width: 300px;
-  padding: 0 0.3rem;
+  padding: 0 0 0 0.3rem;
 }
 div.scrollproducts h2 {
   text-transform: capitalize;
