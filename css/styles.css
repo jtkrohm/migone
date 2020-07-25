@@ -82,8 +82,7 @@ div.scrollproducts {
   overflow-x: auto; 
   overflow-y: hidden; 
   white-space: nowrap; 
-  height: 125px; 
-  width: 140px;
+  height: 125px;
   display: flex; 
   align-items: center;
 }
