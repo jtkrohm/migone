@@ -79,17 +79,17 @@ div.scrollmenu a {
   font-size: 1.5rem;
 }
 div.scrollproducts { 
-  overflow-x: auto; 
-  overflow-y: hidden; 
+  overflow-x: scroll; 
+  overflow-y: auto; 
   white-space: nowrap; 
   max-height: 450px;
-  max-width: 500px;
+  padding: 0 0.5rem;
   display: flex; 
   align-items: center;
 }
 div.scrollproducts div {
   display: inline-block
-  padding: 0 0.4rem;
+  align-items: center;
 }
 div.scrollproducts h2 {
   text-transform: capitalize;
@@ -121,9 +121,12 @@ div.scrollproducts h5 {
 }
 @media screen and (max-width: 768px) {
 img-container-prod {
-  max-width:375px}
+  max-width:300px} 
 }
-
+@media screen and (max-width: 768px) {
+div.scrollproducts {
+ max-width:300px; }
+}
 @media screen and (min-width: 768px) {
 div.scrollmenu a {
   padding:0.4rem 5rem; }
@@ -266,13 +269,12 @@ span.search-box a:hover search-txt {
   position: relative;
   overflow: hidden;
   max-height: 450px;
- // max-width: 500px;
 }
 .img-container-prod {
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
   max-height: 450px;
-  //max-width: 500px;
+  padding: 0 0.5rem;
 }
 .bag-btn {
   position: absolute;
