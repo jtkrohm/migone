@@ -87,6 +87,35 @@ div.scrollproducts {
   display: flex; 
   align-items: center;
 }
+div.scrollproducts h2 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  letter-spacing: var(--mainSpacing);
+  text-align: center;
+}
+div.scrollproducts h3 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  letter-spacing: var(--mainSpacing);
+  text-align: center;
+}
+div.scrollproducts h4 {
+  margin-top: 0.7rem;
+  font-size:0.8rem;
+  letter-spacing: var(--mainSpacing);
+  color: var(--primaryColor);
+  text-align: center;
+}
+div.scrollproducts h5 {
+  margin-top: 0.5rem;
+  font-size:0.6rem;
+  letter-spacing: var(--mainSpacing);
+  color: var(--primaryColor);
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
 div.scrollmenu a {
   padding:0.4rem 5rem; }
