@@ -120,7 +120,7 @@ div.scrollproducts h5 {
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-ing-container-prod {
+img-container-prod {
   max-width:375px}
 }
 
@@ -266,13 +266,13 @@ span.search-box a:hover search-txt {
   position: relative;
   overflow: hidden;
   max-height: 450px;
-  max-width: 500px;
+ // max-width: 500px;
 }
 .img-container-prod {
   position: relative;
   overflow: hidden;
   max-height: 450px;
-  max-width: 500px;
+  //max-width: 500px;
 }
 .bag-btn {
   position: absolute;
