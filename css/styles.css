@@ -110,7 +110,7 @@ span.search-box:hover > search-btn {
    color: var(--primaryColor);
    float: right;
    width: 2.2re.;
-   height: 2.2rem;
+   height: 2.0rem;
    border-radius: 50%;
    background: var(--mainWhite);
    display:flex;
@@ -133,7 +133,7 @@ span.search-box:hover > search-btn {
    font-size: 16px;
    transition: var(--mainTransition);
    line-height: 40px;
-   width: 0px;
+   width: 120px;
 }
 .cart-btn {
   position: relative;
