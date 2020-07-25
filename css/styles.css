@@ -90,6 +90,7 @@ div.scrollproducts {
 div.scrollproducts div {
   display: inline-block
   align-items: center;
+  width: 300px;
 }
 div.scrollproducts h2 {
   text-transform: capitalize;
