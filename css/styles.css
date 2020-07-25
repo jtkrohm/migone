@@ -78,7 +78,7 @@ div.scrollmenu a {
   color: var(--mainRed);
   font-size: 1.5rem;
 }
-div.scrollmenu { 
+div.scrollproducts { 
   overflow-x: auto; 
   overflow-y: hidden; 
   white-space: nowrap; 
