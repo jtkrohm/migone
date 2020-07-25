@@ -10,13 +10,13 @@ const prodList = [
 
 /* {"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"price"}]},*/
   
-let prodJSON = '{"product":[{"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
- {"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
- {"item":"Bluggoes","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
- {"item":"Breadfruit","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
- {"item":"Butternut Squash","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
- {"item":"Cabbages","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
- {"item":"Callaloo","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
+let prodJSON = '{"product":[{"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, /n
+ {"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, /n
+ {"item":"Bluggoes","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, /n
+ {"item":"Breadfruit","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, /n
+ {"item":"Butternut Squash","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, /n
+ {"item":"Cabbages","picture":"path/to/picture","vendor":[{"name":"John","price":20}]},  /n
+ {"item":"Callaloo","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, /n
  {"item":"Cantiloupe","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Carrots","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Celery","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
@@ -44,8 +44,8 @@ let prodJSON = '{"product":[{"item":"Bananas","picture":"path/to/picture","vendo
  {"item":"Sweet Potatoes","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Tomatoes","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Watermelons","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
- {"item":"Whole Chicken","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
- {"item":"Yam","picture":"path/to/picture","vendor":[{"name":"John","price":20}]},
+ {"item":"Whole Chicken","picture":"path/to/picture","vendor":[{"name":"John","price":20}]},  /n
+ {"item":"Yam","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, /n
  ]};
 
 let prodObj = JSON.parse(prodJSON);
