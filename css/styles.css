@@ -122,7 +122,7 @@ span.search-box a:hover search-txt {
 }
 #search {
    font-size: 1.4rem;
-   color: var(--primaryColor);
+   color: var(--mainBlack);
 }
 
 .search-txt {
