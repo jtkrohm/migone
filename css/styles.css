@@ -89,6 +89,7 @@ div.scrollproducts {
 }
 div.scrollproducts div {
   display: inline-block
+  padding: 0 0.4rem;
 }
 div.scrollproducts h2 {
   text-transform: capitalize;
@@ -117,6 +118,10 @@ div.scrollproducts h5 {
   letter-spacing: var(--mainSpacing);
   color: var(--primaryColor);
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+ing-container-prod {
+  max-width:375px}
 }
 
 @media screen and (min-width: 768px) {
@@ -258,6 +263,12 @@ span.search-box a:hover search-txt {
   grid-row-gap: 2rem;
 }
 .img-container {
+  position: relative;
+  overflow: hidden;
+  max-height: 450px;
+  max-width: 500px;
+}
+.img-container-prod {
   position: relative;
   overflow: hidden;
   max-height: 450px;
