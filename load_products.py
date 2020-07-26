@@ -34,7 +34,7 @@ list = ["Bananas",
 "Whole Chicken",
 "Yam" ]
 
-prodJSON = {"product":[{"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
+prod = {"product":[{"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Bananas","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Bluggoes","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
  {"item":"Breadfruit","picture":"path/to/picture","vendor":[{"name":"John","price":20}]}, 
@@ -72,41 +72,41 @@ prodJSON = {"product":[{"item":"Bananas","picture":"path/to/picture","vendor":[{
  {"item":"Yam","picture":"path/to/picture","vendor":[{"name":"John","price":20}]},
  ]}
 
-html = ' '
+html = ' ' 
+html0 = ' '
+html1 = ' '
+html2 = ' '
+html3 = ' '
 
 
-for product in list:
-       html +=  f'''
-
-
+for product in prod["product"]:
+       html1 =  f'''
 			        <article class="product">
-					<h2 id="product-name"> {product} </h2>
+					<h2 id="product-name"> {product["item"]} </h2>
 					<br>
 					<div class="img-container-prod">
-						<img src="./images/eggs_tray.webp" alt="" class="product-img">
+						<img src="{product["picture"]}" alt="" class="product-img">
 						<button class="bag-btn" data-id="1"><a href="tel: +14734091240"> Call Now </a> </button>
 					</div>
 					
 					<div class="scrollproducts">
-						<div>
-						<h3> Poultry Vendor @ St. Paul's </h3>
-						<h5> $20 per tray</h5>
-						<h5> $10 per dozen </h5>
+						'''
+       for vendor in product["vendor"]:
+              html2 = f'''              <div>
+						<h3> {vendor["name"]} </h3>
+						<h5> address</h5>
+						<h5> {vendor["price"]} per lb </h5>
 						</div>
 						<div>
-						<h3> Poultry Vendor @ St. Paul's </h3>
-						<h5> $20 per tray</h5>
-						<h5> $10 per dozen </h5>
-						</div>
-						<div>
-						<h3> Poultry Vendor @ St. Paul's </h3>
-						<h5> $20 per tray</h5>
-						<h5> $10 per dozen </h5>
-						</div>
+					'''
+       html3 ='''
 					</div>
 				</article> 
 			
 '''
+       html0 = html1 + html2 + html3
+       html += html0
+
 
 print (html)
 
