@@ -1,0 +1,321 @@
+Business pitch for vendors: You are building a website to help grenadians and visitors to know where they can buy local produce from farmers and contact the farmers if they want to buy the products. You would like have information on the farmer (Name and address [where they sell from] and information on the products they sell. You will contact them on afternoons to find out what products they will have available for the next day.  
+
+help small businesses manage inventory?
+
+---------------------------------------------------------------------
+Migone - ecommerce 
+
+-search : vendors, products,closing time, price, in stock
+
+vendors: products,  price, instock ,make order,contact
+
+product: vendors, images, make order, add to shopping list 
+
+shopping list: load from products,  export as text, email list to self
+
+order checkout  : load from cart, print invoice, unique order id, send completed orders to admin, send orders to vendors (only the section of the order that is relevant to the vendor), cancel order, delivery option, request images of products, confirm order after image request
+
+shopping cart: load from vendors, load from products, increase order amount, load to order checkout , sign in to check out
+
+delivery: load order from order checkout, user address, vendor profile, user contact, whatsapp for picture confirmation 
+
+payment: how to register confirmed payments: payment receipts , both admin and users can access recipts, receipt confirmation- signature/unique receipt number(**sql injection**)
+
+receipts: how will you do the receipt confirmation?
+
+
+
+
+CONSIDER: farmers sell to iga, foodland (competitors/or you can be the middleman)
+
+CONSIDER: many farmers don't have a regulated price per pound
+
+CONSIDER:  how will you run the shopping cart with different sellers? Will you purchase certain items to guarantee their delivery?
+
+CONSIDER: will you charge for a delivery service? will you have advertized paper bags to deliver items? How will you make the delivery service profitable? What is the gas price per mile? $10 from home to sgu x 2- find the amount of gas per mile. then find the distance from sgu to hermitage and that will be the price you should atleast charge for delivery
+
+
+CONSIDER:will you charge a service fee_
+
+
+write local python script to generate article section; copy and paste to server javascript file; write that javascript file to html
+Vendors Page:
+
+Vendor Profile: json
+section for each vendor with a fixed height
+the section will have a css property ="overflow:scroll"
+--article--
+Picture
+Name
+Address
+--article within section---
+picture (fixed size) add to list button
+product
+price
+
+Individual Vendor Page: 
+Name:
+Adress:
+Picture
+
+Products(Article): json
+Picture:
+product:
+price:
+"Add to cart" button
+
+---------------Product Page:-----------
+
+Product:
+Picture
+--article-
+Vendor
+vendor price
+"call now" button
+
+
+List of Products: hard coded
+"Bananas",
+"Bluggoes",
+"Breadfruit",
+"Butternut Squash",
+"Cabbages",
+"Callaloo",
+"Cantiloupe",
+"Carrots",
+"Celery",
+"Chive & thyme",
+"Christophene",
+"Coconut",
+"Coconut Water",
+"Cucumbers",
+"Dasheen",
+"Eggs",
+"Ginger",
+"Honey",
+"Kale",
+"Lettuce",
+"Limes",
+"Nutmegs",
+"Ochroes",
+"Oranges",
+"Patchoi",
+"Parsley",
+"Pinapples",
+"Plantains",
+"String Beans",
+"Sea Moss",
+"Seasoning Peppers",
+"Sweet Potatoes",
+"Tomatoes",
+"Whole Chicken",
+"Yam"
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Store and retrieve data from local storage.</h2>
+
+<p id="vendor"></p>
+
+<script>
+var myObj, myJSON, text, obj;
+
+//Storing data:
+myObj = { "name":"John", "address":"st.paul's,st.george", "product":"eggs", "price":"$20 per tray" };
+myJSON = JSON.stringify(myObj);
+localStorage.setItem("testJSON", myJSON);
+
+//Retrieving data:
+text = localStorage.getItem("testJSON");
+obj = JSON.parse(text);
+document.getElementById("vendorName").innerHTML = obj.name;
+</script>
+
+</body>
+</html>
+
+
+‐------------------------------------------------------
+
+
+<style>
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color: #FFF;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+}
+</style>
+</head>
+<body>
+
+<footer>
+  <p>Author: Hege Refsnes<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+  
+  <p> <a href="copyright.html"> &copy; Copyright </a> <p>
+  
+  <p> <a href="privacy.html">privacy <a> </p>
+
+<p> <a href="contact.html">contact <a> </p>
+  
+ <p> <a href="terms.html"> Terms and agreements <a> </p>
+ 
+<!--  sitemap 
+ social -->
+</footer>
+
+
+---------------pages:--------------
+
+home - in stock , closing soon,
+
+vendors - articles for vendors with scrolling buttons for products 
+
+products - scrolling buttons for products' vendors 
+
+About migone- contact us, our mission at migone
+
+Business- (are you a farmer?) connect with more customers,  advertise with us
+shopping cart - full shopping cart details 
+
+privacy policy
+
+terms of use
+
+--------------footer: ---------------
+
+copyright
+sitemap
+privacy 
+contact
+social media icons
+
+--------------menu:-----------
+
+home
+shop by:
+vendor 
+product
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, yellow); /* Standard syntax (must be last) */
+}
+</style>
+</head>
+<body>
+
+<h1>Linear Gradient - Diagonal</h1>
+<p>This linear gradient starts at top left. It starts red, transitioning to yellow:</p>
+
+
+
+
+
+
+.strokeme //white text border for logo
+{
+    color: var(--mainRed);
+    text-shadow:
+    -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+
+ 
+hr {  //gradient line for footer
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+---------------------------------------------------------------------
+
+<div class="search-box">
+    <input class="search-txt" type="text" name=" " placeholder="search for vendors or products" >
+    <a class="search-btn" href"#"> </a>
+    <i class="fas fa-search"> </i>
+</div>
+
+.search-box {
+ //  transform: translate( -50%, -50%);
+   background: var(--mainWhite);
+   height: 40px;
+   border-radius: 40px;
+   padding: 5px;
+}
+.search-box:hover > search-txt {
+   width: 240px;
+   padding: 0 6px;
+}
+.search-box:hover > search-btn {
+   background: var(--mainWhite);
+}
+   
+.search-btn {
+   color: var(--primaryColor);
+   float: right;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background: var(--mainBlack);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   transition: var(--mainTransition);
+}
+
+.search-txt {
+   border: none;
+   background: none;
+   outline: none;
+   float: left;
+   padding: 0;
+   color: var(--mainWhite);
+   font-size: 16px;
+   transition: 0.4s; //var(--mainTransition);
+   line-height: 40px;
+   width: 0px;
+}
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
