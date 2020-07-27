@@ -337,6 +337,10 @@ article.product h3 {
   color: var(--primaryColor);
   text-align: center;
 }
+article.product a {
+text-decoration: none;
+ color: var(--mainRed);
+}
 .cart-overlay {
   position: fixed;
   top: 0;
