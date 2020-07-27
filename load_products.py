@@ -90,14 +90,14 @@ for product in prod["product"]:
 					</div>
 					
 					<div class="scrollproducts">
-						'''
+					'''
        for vendor in product["vendor"]:
-              html2 = f'''              <div>
+              html2 = f'''    <div>
 						<h3> {vendor["name"]} </h3>
 						<h5> address</h5>
 						<h5> {vendor["price"]} per lb </h5>
-						<a href="tel: +{vendor["number"]}"> <h5> Call: +{vendor["number"]} </h5> </a>
-					</div>
+  						<a href="tel: +{vendor["number"]}"> <h5> Call: +{vendor["number"]} </h5> </a>
+					     </div>
 					'''
        html3 ='''
                                         </div>
