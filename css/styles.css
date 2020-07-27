@@ -337,8 +337,12 @@ article.product h3 {
   color: var(--primaryColor);
   text-align: center;
 }
-article.product a {
-text-decoration: none;
+.product a {
+ text-decoration: none;
+ margin-top: 0.5rem;
+ font-size:0.6rem;
+ letter-spacing: var(--mainSpacing);
+ text-align: center;
  color: var(--mainRed);
 }
 .cart-overlay {
