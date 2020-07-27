@@ -96,7 +96,7 @@ for product in prod["product"]:
 						<h3> {vendor["name"]} </h3>
 						<h5> address</h5>
 						<h5> {vendor["price"]} per lb </h5>
-  						<a href="tel: +{vendor["number"]}"> Call: +{vendor["number"]} </a>
+  						<h5> <a href="tel: +{vendor["number"]}"> Call: +{vendor["number"]} </a> </h5>
 					     </div>
 					'''
        html3 ='''
