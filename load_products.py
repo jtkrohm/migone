@@ -82,7 +82,7 @@ html3 = ' '
 for product in prod["product"]:
        html1 =  f'''
 			        <article class="product">
-					<h2 id="product-name"> {product["item"]} </h2>
+					<h3 id="product-name"> {product["item"]} </h3>
 					<br>
 					<div class="img-container-prod">
 						<img src="{product["picture"]}" alt="" class="product-img">
@@ -96,7 +96,7 @@ for product in prod["product"]:
 						<h3> {vendor["name"]} </h3>
 						<h5> address</h5>
 						<h5> {vendor["price"]} per lb </h5>
-  						<a href="tel: +{vendor["number"]}"> <h5> Call: +{vendor["number"]} </h5> </a>
+  						<a href="tel: +{vendor["number"]}" style="color: var(--mainRed)"> <h5> Call: +{vendor["number"]} </h5> </a>
 					     </div>
 					'''
        html3 ='''
