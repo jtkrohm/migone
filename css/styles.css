@@ -323,21 +323,21 @@ article.product h3 {
   text-align: center;
 }
 
-.product h4 {
+article.product h4 {
   margin-top: 0.7rem;
   font-size:0.8rem;
   letter-spacing: var(--mainSpacing);
   color: var(--primaryColor);
   text-align: center;
 }
-.product h5 {
+article.product h5 {
   margin-top: 0.5rem;
   font-size:0.6rem;
   letter-spacing: var(--mainSpacing);
   color: var(--primaryColor);
   text-align: center;
 }
-.product a {
+article.product a {
  text-decoration: none;
  margin-top: 0.5rem;
  font-size:0.6rem;
