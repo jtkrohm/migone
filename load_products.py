@@ -82,7 +82,7 @@ html3 = ' '
 for product in prod["product"]:
        html1 =  f'''
 			        <article class="product">
-					<h3 id="product-name"> {product["item"]} </h3>
+					<h3> {product["item"]} </h3>
 					<br>
 					<div class="img-container-prod">
 						<img src="{product["picture"]}" alt="" class="product-img">

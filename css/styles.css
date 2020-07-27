@@ -308,14 +308,14 @@ span.search-box a:hover search-txt {
   opacity: 0.5;
 }
 
-.product h2 {
+article.product h2 {
   text-transform: capitalize;
   font-size: 1.5rem;
   margin-top: 1rem;
   letter-spacing: var(--mainSpacing);
   text-align: center;
 }
-.product h3 {
+article.product h3 {
   text-transform: capitalize;
   font-size: 1.1rem;
   margin-top: 1rem;
