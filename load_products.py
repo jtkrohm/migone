@@ -100,6 +100,7 @@ for product in prod["product"]:
 					</div>
 					'''
        html3 ='''
+                                        </div>
 				</article> 
 			
 '''
