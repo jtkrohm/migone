@@ -80,7 +80,7 @@ div.scrollmenu a {
 }
 div.scrollproducts { 
   overflow-x: scroll; 
-  overflow-y: auto; 
+  overflow-y: hidden; 
   white-space: nowrap; 
   max-height: 450px;
   padding: 0 0.3rem;
@@ -274,7 +274,7 @@ span.search-box a:hover search-txt {
 }
 .img-container-prod {
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
   max-height: 450px;
   padding: 0 0.5rem;
 }
