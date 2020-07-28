@@ -442,6 +442,7 @@ article.product a {
  position: relative;
  left: 50%;
  font-size: 5rem;
+ overflow-x: hidden;
 }
 .page-footer {
  position: relative; 
