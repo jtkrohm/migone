@@ -440,12 +440,11 @@ article.product a {
 }
 #order-icon {
  position: relative;
- top: 50%;
  left: 50%;
  font-size: 5rem;
 }
 .page-footer {
- position: absolute; 
+ position: relative; 
  bottom: 0;
  width: 100%;
  text-align: center;
