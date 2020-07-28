@@ -16,27 +16,17 @@ html2 = " "
 
 for vendor in vendors["vendor"]:
        html1 =  f'''
+			        <div class="products-center"> 
 			        <article class="product">
-					<h3> {product["item"]} </h3>
-					<br>
-					<div class="img-container-prod">
-						<img src="{product["picture"]}" alt="" class="product-img">
+					<div class="img-container">
+						<img src="./images/pexels/eggs_tray.webp" alt="" class="product-img">
 						<button class="bag-btn" data-id="1"><a href="tel: +14734091240"> Call Now </a> </button>
 					</div>
-					
-					<div class="scrollproducts">
-					'''
-       for vendor in product["vendor"]:
-              html2 = f'''    <div>
-						<h3> {vendor["name"]} </h3>
-						<h5> address</h5>
-						<h5> {vendor["price"]} per lb </h5>
-  						<h5> <a href="tel: +{vendor["number"]}"> Call: +{vendor["number"]} </a> </h5>
-					     </div>
-					'''
-       html3 ='''
-                                        </div>
+					<h2> Poultry Vendor @ St. Paul's </h2>
+					<h5> eggs @ $20 per tray</h5>
+					<h5> eggs @ $10 per dozen </h5>
 				</article> 
+			</div>	
 			
 '''
        html0 = html1 + html2 + html3
