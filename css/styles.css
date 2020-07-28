@@ -440,9 +440,6 @@ article.product a {
 }
 #order-icon {
  font-size: 5rem;
- text-align: center;
- display: flex;
- align-items: center;
 }
 .page-footer {
  position: relative; 
