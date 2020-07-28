@@ -439,10 +439,8 @@ article.product a {
   margin-bottom: 1rem;
 }
 #order-icon {
- position: relative;
- left: 50%;
  font-size: 5rem;
- overflow-x: hidden;
+ align-items: center;
 }
 .page-footer {
  position: relative; 
