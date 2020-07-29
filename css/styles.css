@@ -28,7 +28,7 @@ body a {
 .navbar {
   position: sticky;
   top: 0;
-  height: 57px;
+  height: 52px;
   width: 100%;
   display: flex;
   align-items: center;
