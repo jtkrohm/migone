@@ -28,7 +28,7 @@ body a {
 .navbar {
   position: sticky;
   top: 0;
-  height: 60px;
+  height: 57px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -66,7 +66,7 @@ div.scrollmenu {
   overflow-x: auto; 
   overflow-y: hidden; 
  // white-space: nowrap; 
-  height: 35px; 
+  height: 33px; 
   display: flex; 
   align-items: center;
 }
