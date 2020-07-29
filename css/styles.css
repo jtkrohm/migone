@@ -311,14 +311,14 @@ span.search-box a:hover search-txt {
 
 article.product h2 {
   text-transform: capitalize;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 1rem;
   letter-spacing: var(--mainSpacing);
   text-align: center;
 }
 article.product h3 {
   text-transform: capitalize;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-top: 1rem;
   letter-spacing: var(--mainSpacing);
   text-align: center;
