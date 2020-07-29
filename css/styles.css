@@ -62,8 +62,7 @@ body a {
       rgba(0, 0, 0, 0.75), 
       rgba(0, 0, 0, 0));
 }
-div.scrollmenu { 
-  background-color: var(--primaryColor); 
+div.scrollmenu {  
   overflow-x: auto; 
   overflow-y: hidden; 
  // white-space: nowrap; 
@@ -75,6 +74,8 @@ div.scrollmenu a {
   display: inline-block;
   text-align: center;
   padding: 0.4rem 1rem;
+  background-color: rgba(74, 93, 35, 0.7);
+  border-radius: 2rem;
   color: var(--mainRed);
   font-size: 1.5rem;
 }
