@@ -73,7 +73,7 @@ div.scrollmenu {
 div.scrollmenu a {
   display: inline-block;
   text-align: center;
-  padding: 0.4rem 1rem;
+  padding: 0.2rem 1rem;
   background-color: rgba(74, 93, 35, 0.7);
   border-radius: 2rem;
   color: var(--mainRed);
