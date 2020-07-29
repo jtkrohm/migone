@@ -75,7 +75,7 @@ div.scrollmenu a {
   text-align: center;
   padding: 0.2rem 1rem;
   background-color: rgba(74, 93, 35, 0.7);
-  border-radius: 2rem;
+  border-radius: 1rem;
   color: var(--mainRed);
   font-size: 1.5rem;
 }
