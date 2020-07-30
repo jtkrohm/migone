@@ -71,6 +71,7 @@ div.scrollmenu {
   height: 33px; 
   display: flex; 
   align-items: center;
+  z-index: 1;
 }
 div.scrollmenu a {
   display: inline-block;
