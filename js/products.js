@@ -51,10 +51,10 @@ let prodJSON = '{"product":[{"item":"Bananas","picture":"path/to/picture","vendo
 let prodObj = JSON.parse(prodJSON);
 
 $.ajax({
-  url: "data/products.json",
+  url: "json/products.json",
   dataType: "json",
   success: function(response) {
-    $.each(response.Users, function(item) {
+    $.each(response.Users, function(item) { //this is where you process the data
       informationArray.push(item);
     });
     informationArray.push("success");
