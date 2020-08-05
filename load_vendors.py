@@ -1,4 +1,6 @@
-vendors = {"vendor":[{"name":"Mr. Rennie","picture":"./images/vendors/lettuce.webp","address":"St. Paul's","item":[{"item":"vegetable","price":20,"unit":"lbs","in stock":yes}]}, 
+vendors = {"vendor":[{"name":"Mr. Rennie","picture":"./images/vendors/lettuce.webp","address":"St. Paul's","item":[{"item":"vegetable","price":20,"unit":"lbs","in stock":"yes"}]}, 
+ {"name":"Poultry Vendor ","picture":"./images/vendors/eggs_tray.webp","address":"St. Paul's","item":[{"item":"Eggs","price":20,"unit":"tray","in stock":"yes"}, {"item":"Eggs","price":10,"unit":"dozen","in stock":"yes"}]}
+]} 
  
 
 
