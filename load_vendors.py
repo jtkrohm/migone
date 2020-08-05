@@ -1,4 +1,4 @@
-vendors = {"vendor":[{"name":"John","picture":"./images/vendors/bananas.webp","address":"St. Paul's","item":[{"item":"vegetable","price":20,"unit":"lbs","in stock":yes}]}, 
+vendors = {"vendor":[{"name":"Mr. Rennie","picture":"./images/vendors/lettuce.webp","address":"St. Paul's","item":[{"item":"vegetable","price":20,"unit":"lbs","in stock":yes}]}, 
  
 
 
@@ -35,7 +35,7 @@ for vendor in vendors["vendor"]:
 
 print (html)
 
-text_file = open("vendors_html.txt", "w") 
+text_file = open("vendors_text.txt", "w") 
 n = text_file.write(html) 
 text_file.close()
    
