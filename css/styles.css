@@ -360,7 +360,7 @@ article.product a {
   transition: var(--mainTransition);
   background: rgba(74, 93, 35, 0.4); 
   z-index: 2;
-  visibility: visible;
+  visibility:hidden ;
 }
 .cart {
   position: fixed;
@@ -373,7 +373,7 @@ article.product a {
   background: rgb(231, 226, 221); /* grey */
   padding: 1.5rem;
   transition: var(--mainTransition); 
-  transform: translateX(100%);
+  transform: translateX(0);
 }
 .showCart {
   transform: translateX(0);
