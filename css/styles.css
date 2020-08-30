@@ -139,10 +139,9 @@ div.scrollmenu a {
 }
 .cart-icon {
   font-size: 1.9rem;
-  text-colour: var(--mainGrey);
   position: relative;
   cursor: pointer;
-  background: transparent;
+  background: var(--primaryColor);
 }
 span.search-box {
    //transform: translate( -50%, -50%);
