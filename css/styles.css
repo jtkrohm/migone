@@ -204,7 +204,7 @@ span.search-box a:hover search-txt {
 
 .banner-background {
   min-height: calc(100vh - 60px);
-  background: url("../images/pexels/grocery.jpeg") center/cover no-repeat;
+  background: url("/images/pexels/grocery.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -453,10 +453,10 @@ article.product a {
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
  font-size:0.7rem;
- display: inline;
+ display: inline-block;;
 }
 .page-footer {
- position:relative;
+ position:fixed;
  bottom: 0;
  width: 100%;
  text-align: center;
