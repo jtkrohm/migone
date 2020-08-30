@@ -453,6 +453,7 @@ article.product a {
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
  font-size:0.7rem;
+ display: inline;
 }
 .page-footer {
  position:relative;
