@@ -446,8 +446,8 @@ article.product a {
  font-size: 5rem;
 }
 .page-header {
- position: relative;
- //top: 0;
+ position: fixed;
+ top: 0;
  width: 100%;
  text-align: center;
  background: var(--mainGrey); 
@@ -457,7 +457,7 @@ article.product a {
 }
 .page-footer {
  position:relative;
-// bottom: 0;
+ bottom: 0;
  width: 100%;
  text-align: center;
  background: var(--mainGrey); 
