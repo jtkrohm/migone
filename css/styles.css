@@ -358,7 +358,12 @@ article.product a {
   transition: var(--mainTransition);
   background: rgba(74, 93, 35, 0.4); 
   z-index: 2;
+}
+#cart0 {
   visibility: hidden;
+}
+#cart1 {
+  transform: translateX(100%);
 }
 .cart {
   position: fixed;
@@ -370,8 +375,7 @@ article.product a {
   z-index: 3;
   background: rgb(231, 226, 221); /* grey */
   padding: 1.5rem;
-  transition: var(--mainTransition);
-  transform: translateX(100%); 
+  transition: var(--mainTransition); 
 }
 .showCart {
   transform: translateX(0);
