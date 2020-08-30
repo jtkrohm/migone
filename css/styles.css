@@ -137,11 +137,12 @@ div.scrollproducts {
 div.scrollmenu a {
   padding:0.4rem 5rem; }
 }
-.menu-icon {
+.cart-icon {
   font-size: 1.9rem;
   text-colour: var(--mainGrey);
   position: relative;
   cursor: pointer;
+  background: transparent;
 }
 span.search-box {
    //transform: translate( -50%, -50%);
