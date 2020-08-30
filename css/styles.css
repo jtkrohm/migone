@@ -356,7 +356,7 @@ article.product a {
   top: 0;
   right: 0;
   width: 100%;
-  height: calc(100vh - 60px);
+  height: 100%;
   overflow: scroll;
   z-index: 3;
   background: rgb(231, 226, 221); /* grey */
@@ -445,9 +445,18 @@ article.product a {
 #order-icon {
  font-size: 5rem;
 }
+.page-header {
+ position: relative;
+ //top: 0;
+ width: 100%;
+ text-align: center;
+ background: var(--mainGrey); 
+ text-color: var(--mainBlack);
+ font-size:0.7rem;
+}
 .page-footer {
- position: fixed;
- bottom: 0;
+ position:relative;
+// bottom: 0;
  width: 100%;
  text-align: center;
  background: var(--mainGrey); 
