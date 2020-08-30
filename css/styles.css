@@ -220,7 +220,7 @@ span.search-box a:hover search-txt {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
 }
 .banner {
   text-align: center;
@@ -353,7 +353,7 @@ article.product a {
  color: var(--mainRed);
 }
 .cart-overlay {
-  position: fixed;
+  position: relative;
   top: 0;
   right: 0;
   width: 100%;
@@ -361,10 +361,10 @@ article.product a {
   transition: var(--mainTransition);
   background: rgba(74, 93, 35, 0.4); 
   z-index: 2;
-  visibility:hidden ;
+  visibility: visible ;
 }
 .cart {
-  position: fixed;
+  position: relative;
   top: 0;
   right: 0;
   width: 100%;
@@ -449,7 +449,7 @@ article.product a {
  font-size: 5rem;
 }
 .page-footer {
- position: absolute; 
+ position: relative; 
  bottom: 0;
  width: 100%;
  text-align: center;
