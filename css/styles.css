@@ -141,10 +141,9 @@ div.scrollmenu a {
   font-size: 1.9rem;
   position: relative;
   cursor: pointer;
-  border-radius: 55%;
+  border-radius: 65%;
   background: var(--primaryColor);
   display: inline;
-  height: 2rem;
 }
 span.search-box {
    //transform: translate( -50%, -50%);
