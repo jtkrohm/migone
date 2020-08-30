@@ -353,7 +353,7 @@ article.product a {
  color: var(--mainRed);
 }
 .cart-overlay {
-  position: relative;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100%;
@@ -364,7 +364,7 @@ article.product a {
   visibility: hidden ;
 }
 .cart {
-  position: relative;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100%;
