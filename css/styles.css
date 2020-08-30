@@ -361,7 +361,7 @@ article.product a {
   transition: var(--mainTransition);
   background: rgba(74, 93, 35, 0.4); 
   z-index: 2;
-  visibility: visible ;
+  visibility: hidden ;
 }
 .cart {
   position: relative;
