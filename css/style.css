@@ -28,7 +28,7 @@ body a {
 .navbar {
   position: sticky;
   top: 0;
-  height: 60px;
+  height: 52px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -62,25 +62,29 @@ body a {
       rgba(0, 0, 0, 0.75), 
       rgba(0, 0, 0, 0));
 }
-div.scrollmenu { 
-  background-color: var(--primaryColor); 
+div.scrollmenu {  
+  position: sticky;
+  top: 52px;
   overflow-x: auto; 
   overflow-y: hidden; 
  // white-space: nowrap; 
-  height: 35px; 
+  height: 33px; 
   display: flex; 
   align-items: center;
+  z-index: 1;
 }
-div.scrollmenu a {
+div.scrollmenu button {
   display: inline-block;
   text-align: center;
-  padding: 0.4rem 1rem;
+  padding: 0.1rem 1rem;
+  background-color: rgba(74, 93, 35, 0.7);
+  border-radius: 1rem;
   color: var(--mainRed);
   font-size: 1.5rem;
 }
 div.scrollproducts { 
   overflow-x: scroll; 
-  overflow-y: auto; 
+  overflow-y: hidden; 
   white-space: nowrap; 
   max-height: 450px;
   padding: 0 0.3rem;
@@ -133,11 +137,13 @@ div.scrollproducts {
 div.scrollmenu a {
   padding:0.4rem 5rem; }
 }
-.menu-icon {
+.cart-icon {
   font-size: 1.9rem;
-  text-colour: var(--mainGrey);
   position: relative;
   cursor: pointer;
+  border-radius: 65%;
+  background: var(--primaryColor);
+  display: inline;
 }
 span.search-box {
    //transform: translate( -50%, -50%);
@@ -181,24 +187,12 @@ span.search-box a:hover search-txt {
    font-size: 1.5rem;
    transition: var(--mainTransition);
    line-height: 2rem;
-   width: 0;
+   width: 5rem;
 }
 .cart-btn {
   position: relative;
   cursor: pointer;
 }
-.cart-items {
-  position: absolute;
-  top: -10px;
-  right: -15px;
-  background: var(--mainGrey);
-  padding: 0 4px;
-  border-radius: 30%;
-  color: var(--primaryColor);
-  visibility: hidden;
-  font-size: 0.5rem;
-}
-
 .clock {
   font-family: 'Lato', sans-serif;
   color: var(--primaryColor);
@@ -210,10 +204,11 @@ span.search-box a:hover search-txt {
 
 .banner-background {
   min-height: calc(100vh - 60px);
-  background: url("../images/grocery.jpeg") center/cover no-repeat;
+  background: url("../images/pexels/grocery.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .banner {
   text-align: center;
@@ -262,7 +257,7 @@ span.search-box a:hover search-txt {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
-  display: grid; //or same as scrollmenu 
+  display: grid; 
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
@@ -274,8 +269,8 @@ span.search-box a:hover search-txt {
 }
 .img-container-prod {
   position: relative;
-  overflow-x: hidden;
-  max-height: 450px;
+  overflow: hidden;
+  max-height: 425px;
   padding: 0 0.5rem;
 }
 .bag-btn {
@@ -308,34 +303,42 @@ span.search-box a:hover search-txt {
   opacity: 0.5;
 }
 
-.product h2 {
+article.product h2 {
   text-transform: capitalize;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 1rem;
   letter-spacing: var(--mainSpacing);
   text-align: center;
 }
-.product h3 {
+article.product h3 {
   text-transform: capitalize;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-top: 1rem;
   letter-spacing: var(--mainSpacing);
   text-align: center;
 }
 
-.product h4 {
+article.product h4 {
   margin-top: 0.7rem;
   font-size:0.8rem;
   letter-spacing: var(--mainSpacing);
   color: var(--primaryColor);
   text-align: center;
 }
-.product h5 {
+article.product h5 {
   margin-top: 0.5rem;
   font-size:0.6rem;
   letter-spacing: var(--mainSpacing);
   color: var(--primaryColor);
   text-align: center;
+}
+article.product a {
+ text-decoration: none;
+ margin-top: 0.5rem;
+ font-size:0.6rem;
+ letter-spacing: var(--mainSpacing);
+ text-align: center;
+ color: var(--mainRed);
 }
 .cart-overlay {
   position: fixed;
@@ -344,9 +347,9 @@ span.search-box a:hover search-txt {
   width: 100%;
   height: 100%;
   transition: var(--mainTransition);
-  background: rgba(51,204, 0, 0.5); 
+  background: rgba(74, 93, 35, 0.4); 
   z-index: 2;
-  visibility: hidden;
+  visibility: visible ;
 }
 .cart {
   position: fixed;
@@ -358,8 +361,8 @@ span.search-box a:hover search-txt {
   z-index: 3;
   background: rgb(231, 226, 221); /* grey */
   padding: 1.5rem;
-  transition: var(--mainTransition);
-  transform: translateX(100%); 
+  transition: var(--mainTransition); 
+  transform: translateX(0);
 }
 .showCart {
   transform: translateX(0);
@@ -373,7 +376,16 @@ span.search-box a:hover search-txt {
     min-width: 450px;
   }
 }
-
+.cart-items {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  background: var(--mainGrey);
+  padding: 0 4px;
+  border-radius: 30%;
+  color: var(--primaryColor);
+  font-size: 0.5rem;
+}
 .close-cart {
   font-size: 1.7rem;
   cursor: pointer;
@@ -430,8 +442,11 @@ span.search-box a:hover search-txt {
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
+#order-icon {
+ font-size: 5rem;
+}
 .page-footer {
- position: relative; 
+ position: absolute;
  bottom: 0;
  width: 100%;
  text-align: center;
@@ -448,5 +463,5 @@ span.search-box a:hover search-txt {
       rgba(0, 0, 0, 0));
 }
 #footer-icon {
- font-size: 1.2rem;
+ font-size: 1.4rem;
 }
