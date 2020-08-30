@@ -220,6 +220,7 @@ span.search-box a:hover search-txt {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
 }
 .banner {
   text-align: center;
