@@ -143,6 +143,7 @@ div.scrollmenu a {
   cursor: pointer;
   border-radius: 50%;
   background: var(--primaryColor);
+  display: inline;
 }
 span.search-box {
    //transform: translate( -50%, -50%);
