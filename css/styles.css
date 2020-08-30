@@ -208,7 +208,7 @@ span.search-box a:hover search-txt {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
+  position: relative;
 }
 .banner {
   text-align: center;
@@ -446,7 +446,7 @@ article.product a {
  font-size: 5rem;
 }
 .page-footer {
- position: fixed; 
+ position: absolute;
  bottom: 0;
  width: 100%;
  text-align: center;
