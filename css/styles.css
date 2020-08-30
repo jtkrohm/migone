@@ -141,6 +141,7 @@ div.scrollmenu a {
   font-size: 1.9rem;
   position: relative;
   cursor: pointer;
+  border-radius: 50%;
   background: var(--primaryColor);
 }
 span.search-box {
