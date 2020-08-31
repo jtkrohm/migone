@@ -351,7 +351,7 @@ article.product a {
 .cart {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   width: 80vw;
   height: 100%;
   overflow: scroll;
@@ -460,14 +460,14 @@ article.product a {
  display: inline-block;
 }
 .page-footer {
- position: absolute;
- bottom: 0;
+ position: relative;
+ //bottom: 0;
  width: 100%;
  text-align: center;
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
  font-size:0.9rem;
- z-index:3;
+ z-index:1;
  
 }
 .page-footer hr {
