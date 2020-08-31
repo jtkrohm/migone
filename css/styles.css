@@ -20,6 +20,7 @@ body {
   background: var(--mainGrey);
   font-family: "Lato", sans-serif;
   overflow- x: hidden;
+  display: block;
 }
 body a {
  text-decoration: none;
@@ -459,7 +460,6 @@ article.product a {
  display: inline-block;
 }
 .page-footer {
- position: relative;
  bottom: 0;
  width: 100%;
  text-align: center;
