@@ -449,6 +449,12 @@ article.product a {
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
  font-size:0.7rem;
+ display: inline;
+}
+.page-header button {
+ display: inline-block;
+}
+.page-header p {
  display: inline-block;
 }
 .page-footer {
