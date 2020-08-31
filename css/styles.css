@@ -442,7 +442,6 @@ article.product a {
  font-size: 5rem;
 }
 .page-header {
- position: fixed;
  top: 0;
  width: 100%;
  text-align: center;
@@ -459,7 +458,6 @@ article.product a {
  display: inline-block;
 }
 .page-footer {
- position:fixed;
  bottom: 0;
  width: 100%;
  text-align: center;
