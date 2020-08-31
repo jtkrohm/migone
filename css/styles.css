@@ -460,14 +460,14 @@ article.product a {
  display: inline-block;
 }
 .page-footer {
- position: relative;
+ position: absolute;
  bottom: 0;
  width: 100%;
  text-align: center;
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
  font-size:0.9rem;
- z-index:1;
+ z-index:3;
  
 }
 .page-footer hr {
