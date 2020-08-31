@@ -14,10 +14,15 @@
 		<script defer src="/js/all.js"></script> 
 	</head>
 	<body>
+		<header class="page-header">
+                <p> shopping cart coming soon </p>
+                <button> <i class="fas fa-window-close"></i> </button>
+                </header>
 		<nav class="navbar">
 			<div class="navbar-center">
-                                <button type="button" onclick="alert('Shopping Cart coming soon!')" class="cart-icon">
-					<i class="fas fa-shopping-cart" id="search"></i>  
+                                <!-- <input type="button" value="Show text" onclick="document.getElementById('p1').style.visibility='visible'">  -->
+                                <button type="button" onclick="alert('Shopping Cart coming soon!')" id="cart-icon">
+					<i class="fas fa-shopping-cart" id="cart-icon"></i>  
 				</button>
 				<a href="/index.html"> <h2 class="logo">Migone.cc</h2></a>  
 				<span class="search-box">
@@ -44,6 +49,26 @@
 				<h1>Privacy</h1>
 			</div>
 		</section>	
+		<footer class="page-footer">
+
+                  <hr>
+
+                  <p> Copyright &copy; <span> <script>document.write(new Date().getFullYear());</script> </span> migone.cc </p> 
+  
+                  <a href="https://www.instagram.com/migone.cc"> <i class="fab fa-instagram" id="footer-icon"></i> </a>
+
+                  <i class="fab fa-facebook" id="footer-icon"> </i> 
+
+                  <a href="https://api.whatsapp.com/send?phone=14734044438&text=example"> <i class="fab fa-whatsapp" id="footer-icon"> </i> </a>
+
+                  <p> <a href="/privacy.html">Privacy </a> </p>
+
+                  <p> <a href="/contact.html">Contact </a> </p>
+  
+                  <p> <a href="/terms.html">Terms and Agreements </a> </p>
+ 
+                  <!-- sitemap -->
+		</footer>
 		<div class="cart-overlay">
 			<div class="cart">
 				<span class="close-cart">
@@ -71,27 +96,6 @@
 				</div>
 			</div>	
 		</div> 
-		<footer class="page-footer">
-
-                  <hr>
-
-                  <p> Copyright &copy; <span> <script>document.write(new Date().getFullYear());</script> </span> migone.cc </p> 
-  
-                  <a href="https://www.instagram.com/migone.cc"> <i class="fab fa-instagram" id="footer-icon"></i> </a>
-
-                  <i class="fab fa-facebook" id="footer-icon"> </i> 
-
-                  <a href="https://api.whatsapp.com/send?phone=14734044438&text=example"> <i class="fab fa-whatsapp" id="footer-icon"> </i> </a>
-
-                  <p> <a href="/privacy.html">Privacy </a> </p>
-
-                  <p> <a href="/contact.html">Contact </a> </p>
-  
-                  <p> <a href="/terms.html">Terms and Agreements </a> </p>
- 
-                  <!-- sitemap -->
-		</footer>
-		<script src="/js/vendors.js"> </script>
 	</body>
 </html>
 
