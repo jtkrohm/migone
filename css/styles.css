@@ -142,7 +142,7 @@ div.scrollmenu a {
   position: relative;
   cursor: pointer;
   border-radius: 65%;
-  background: var(--primaryColor);
+  background: transparent;
   display: inline;
 }
 span.search-box {
@@ -453,7 +453,7 @@ article.product a {
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
  font-size:0.7rem;
- display: inline-block;;
+ display: inline-block;
 }
 .page-footer {
  position:fixed;
