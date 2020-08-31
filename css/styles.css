@@ -65,7 +65,7 @@ body a {
 }
 div.scrollmenu {  
   position: sticky;
-  top: 52px;
+  top: 48px;
   overflow-x: auto; 
   overflow-y: hidden; 
  // white-space: nowrap; 
