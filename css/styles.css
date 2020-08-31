@@ -450,6 +450,7 @@ article.product a {
  text-color: var(--mainBlack);
  font-size:0.7rem;
  display: inline;
+ z-index: 1; 
 }
 .page-header button {
  display: inline-block;
@@ -465,6 +466,8 @@ article.product a {
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
  font-size:0.9rem;
+ display: block;
+ z-index: 1; 
 }
 .page-footer hr {
     border: 0;
