@@ -442,7 +442,7 @@ article.product a {
  font-size: 5rem;
 }
 .page-header {
- position: absolute;
+ position: fixed;
  top: 0;
  width: 100%;
  text-align: center;
@@ -450,7 +450,6 @@ article.product a {
  text-color: var(--mainBlack);
  font-size:0.7rem;
  display: inline;
- z-index: 1; 
  translateY: -100%;
 }
 .page-header button {
@@ -460,7 +459,7 @@ article.product a {
  display: inline-block;
 }
 .page-footer {
- position:absolute;
+ position:fixed;
  bottom: 0;
  width: 100%;
  text-align: center;
@@ -468,7 +467,6 @@ article.product a {
  text-color: var(--mainBlack);
  font-size:0.9rem;
  display: block;
- z-index: 1; 
 }
 .page-footer hr {
     border: 0;
