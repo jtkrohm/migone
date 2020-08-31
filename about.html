@@ -14,10 +14,15 @@
 		<script defer src="/js/all.js"></script> 
 	</head>
 	<body>
+		<header class="page-header">
+                <p> shopping cart coming soon </p>
+                <button> <i class="fas fa-window-close"></i> </button>
+                </header>
 		<nav class="navbar">
 			<div class="navbar-center">
-                                <button type="button" onclick="alert('Shopping Cart coming soon!')" class="cart-icon">
-					<i class="fas fa-shopping-cart" id="search"></i>  
+                                <!-- <input type="button" value="Show text" onclick="document.getElementById('p1').style.visibility='visible'">  -->
+                                <button type="button" onclick="alert('Shopping Cart coming soon!')" id="cart-icon">
+					<i class="fas fa-shopping-cart" id="cart-icon"></i>  
 				</button>
 				<a href="/index.html"> <h2 class="logo">Migone.cc</h2></a>  
 				<span class="search-box">
@@ -29,7 +34,7 @@
 				   </form>
  				</span>
 			</div>
-		</nav>  
+		</nav> 
 		<hr class="nav-hr">
 		<div class="scrollmenu">
 			<button> <a href="/vendors.html"> Vendors </a> </button>
@@ -38,12 +43,12 @@
 			<button> <a href="/about.html"> About </a> </button>
 		</div>
 		
-                <header class="products">
+                <div class="products">
 			<div class="section-title">
 				<h1>About Migone</h1>
 			</div>
 		        <hr class="nav-hr">
-		</header>
+		</div>
 	        <section style="padding: 2rem">	
                 <p> Migone.cc is an online directory for farmers in Grenada. Our aim is to allow users  to connect with these farmers from anywhere, rather than searching for them yourselves!
 
@@ -62,8 +67,28 @@
                 <li> <p> On-time delivery: While you can now  <a href="/delivery">request delivery </a> through <p><a href="https://api.whatsapp.com/send?phone=14734044438&text=We enjoy the service!">Whatsapp Web</a> | <a href="whatsapp://send?phone=14734044438&text=We enjoy the service!"> WhatsApp Mobile</a></p> delivery services will eventually be built into our website. </p> </li>
                 </ul>
                 </section>
+		<footer class="page-footer">
 
-		<!-- <div class="cart-overlay">
+                  <hr>
+
+                  <p> Copyright &copy; <span> <script>document.write(new Date().getFullYear());</script> </span> migone.cc </p> 
+  
+                  <a href="https://www.instagram.com/migone.cc"> <i class="fab fa-instagram" id="footer-icon"> </i> </a>
+
+                  <i class="fab fa-facebook" id="footer-icon"> </i> 
+
+                  <a href="https://api.whatsapp.com/send?phone=14734044438&text=example"> <i class="fab fa-whatsapp" id="footer-icon"> </i> </a>
+
+                  <p> <a href="/privacy.html">Privacy </a> </p>
+
+                  <p> <a href="/contact.html">Contact </a> </p>
+  
+                  <p> <a href="/terms.html">Terms and Agreements </a> </p>
+ 
+                  <!-- sitemap -->
+		  </footer>
+
+	 	 <div class="cart-overlay">
 			<div class="cart">
 				<span class="close-cart">
 					<i class="fas fa-window-close"></i>
@@ -89,27 +114,8 @@
 					</div>
 				</div>
 			</div>	
-		</div> -->
-		<footer class="page-footer">
-
-                  <hr>
-
-                  <p> Copyright &copy; <span> <script>document.write(new Date().getFullYear());</script> </span> migone.cc </p> 
-  
-                  <a href="https://www.instagram.com/migone.cc"> <i class="fab fa-instagram" id="footer-icon"> </i> </a>
-
-                  <i class="fab fa-facebook" id="footer-icon"> </i> 
-
-                  <a href="https://api.whatsapp.com/send?phone=14734044438&text=example"> <i class="fab fa-whatsapp" id="footer-icon"> </i> </a>
-
-                  <p> <a href="/privacy.html">Privacy </a> </p>
-
-                  <p> <a href="/contact.html">Contact </a> </p>
-  
-                  <p> <a href="/terms.html">Terms and Agreements </a> </p>
- 
-                  <!-- sitemap -->
-		</footer>
+		</div> 
+		
 		<script src="/js/vendors.js"> </script>
 	</body>
 </html>
