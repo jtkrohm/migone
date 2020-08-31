@@ -466,7 +466,7 @@ article.product a {
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
  font-size:0.9rem;
- z-index:0;
+ z-index:1;
  
 }
 .page-footer hr {
