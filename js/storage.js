@@ -1,3 +1,3 @@
-document.getElementById("abc").addEventListener("click", function(){
-  localStorage.setItem("eggs_tray", "1");
+document.getElementById("cart-eggs").addEventListener("click", function(){
+  localStorage.setItem("eggs-tray", "1");
 });
