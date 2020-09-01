@@ -285,6 +285,15 @@ span.search-box a:hover search-txt {
   transform: translateX(101%);
   cursor: pointer;
 }
+.square-btn {
+  background: transparent;
+  border: 1px solid var(--primaryColor);
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: var(--mainSpacing);
+  font-weight: bold;
+  cursor: pointer;
+}
 .fa-shopping-cart {
   margin-right: 0.5rem;
 }
