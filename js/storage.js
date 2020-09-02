@@ -3,3 +3,5 @@ document.getElementById("cart-eggs").addEventListener("click", function(){
   console.log(localStorage.getItem("eggs-tray"));
 });
 
+const buttons = document.querySelectorAll(".bag-btn");
+console.log(buttons);
