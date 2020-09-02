@@ -5,3 +5,6 @@ document.getElementById("cart-eggs").addEventListener("click", function(){
 
 const buttons = document.querySelectorAll(".bag-btn");
 console.log(buttons);
+
+
+//buttons.forEach(button => {
