@@ -8,3 +8,4 @@ console.log(buttons);
 
 
 //buttons.forEach(button => {
+//  button.addEventlistener("click", event=> {
