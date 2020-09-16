@@ -347,6 +347,9 @@ article.product a {
  text-align: center;
  color: var(--mainRed);
 }
+article.product button {
+   text-align: center;
+}
 .cart-overlay {
   position: fixed;
   top: 0;
