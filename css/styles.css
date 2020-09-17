@@ -309,7 +309,9 @@ span.search-box a:hover search-txt {
 .img-container:hover .product-img {
   opacity: 0.5;
 }
-
+.product {
+  border-style: groove;
+}
 article.product h2 {
   text-transform: capitalize;
   font-size: 1.3rem;
