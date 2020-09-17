@@ -232,7 +232,7 @@ span.search-box a:hover search-txt {
   transition: var(--mainTransition);
   cursor: pointer;
 }
-.products {
+.product-section {
   padding: 4rem 0;
   overflow-x: hidden;
 }
@@ -347,7 +347,7 @@ article.product a {
  text-align: center;
  color: var(--mainRed);
 }
-article.product button {
+article.product {
   display: flex;
   align-items: center;
   justify-content: center;
