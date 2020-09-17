@@ -347,7 +347,7 @@ article.product a {
  text-align: center;
  color: var(--mainRed);
 }
-article.product {
+article.product div {
   display: flex;
   align-items: center;
   justify-content: center;
