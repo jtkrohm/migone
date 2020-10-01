@@ -127,15 +127,15 @@ div.scrollproducts h5 {
   color: var(--primaryColor);
   text-align: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 665px) {
 img-container-prod {
   max-width:300px} 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 665px) {
 div.scrollproducts {
  max-width:300px; }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 665px) {
 div.scrollmenu a {
   padding:0.4rem 5rem; }
 }
