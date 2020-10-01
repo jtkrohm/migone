@@ -99,6 +99,8 @@ div.scrollproducts div {
   width: 300px;
   padding: 0 0 0 0.6rem;
   border-style: groove;
+  background-color: rgba(74, 93, 35, 0.4);
+  border-radius: 1rem;
 }
 div.scrollproducts h2 {
   text-transform: capitalize;
