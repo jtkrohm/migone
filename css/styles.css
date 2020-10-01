@@ -71,6 +71,7 @@ div.scrollmenu {
  // white-space: nowrap; 
   height: 33px; 
   display: flex; 
+ text-align: center;
   align-items: center;
   z-index: 1;
 }
@@ -132,7 +133,7 @@ img-container-prod {
   max-width:300px} 
 }
 @media screen and (max-width: 768px) {
-div.scrollproducts {
+div.scrollmenu{
  max-width:300px; }
 }
 @media screen and (min-width: 768px) {
