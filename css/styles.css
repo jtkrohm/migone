@@ -133,7 +133,7 @@ img-container-prod {
   max-width:300px} 
 }
 @media screen and (max-width: 768px) {
-div.scrollmenu{
+div.scrollproducts{
  max-width:300px; }
 }
 @media screen and (min-width: 768px) {
