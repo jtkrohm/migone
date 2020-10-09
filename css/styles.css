@@ -393,7 +393,7 @@ article.product div.center-btn {
     min-width: 450px;
   }
 }
-.cart-items {
+.cart-item {
   position: absolute;
   top: -10px;
   right: -15px;
@@ -402,6 +402,11 @@ article.product div.center-btn {
   border-radius: 30%;
   color: var(--primaryColor);
   font-size: 0.5rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 1.5rem;
+  margin: 1.5rem 0;
 }
 .close-cart {
   font-size: 1.7rem;
@@ -413,13 +418,7 @@ article.product div.center-btn {
   letter-spacing: var(--mainSpacing);
   margin-bottom: 2rem;
 }
-.cart-item {
-  display: grid;
-  align-items: center;
-  grid-template-columns: auto 1fr auto;
-  grid-column-gap: 1.5rem;
-  margin: 1.5rem 0;
-}
+
 .cart-item img {
   width: 140px;
   height: 140px;
