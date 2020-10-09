@@ -425,6 +425,10 @@ article.product div.center-btn {
 .cart-item img {
   width: 100px;
   height: 100px;
+  padding: 0rem;
+}
+.cart-item div { 
+  padding: 0rem;
 }
 .cart-item p {
   font-size: 1.5rem;
