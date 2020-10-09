@@ -393,7 +393,7 @@ article.product div.center-btn {
     min-width: 450px;
   }
 }
-.cart-item {
+.cart-content {
   position: absolute;
   top: -10px;
   right: -15px;
@@ -401,6 +401,9 @@ article.product div.center-btn {
   padding: 0 1px;
   border-radius: 30%;
   color: var(--primaryColor);
+}
+
+.cart-item {
   font-size: 0.5rem;
   display: grid;
   align-items: center;
