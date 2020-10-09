@@ -204,7 +204,7 @@ span.search-box a:hover search-txt {
 }
 
 .banner-background {
-  min-height: calc(100vh - 114px);
+  min-height: calc(100vh - 81px);
   background: url("/images/pexels/grocery.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
