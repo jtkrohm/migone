@@ -85,7 +85,7 @@ item_input {
 .editButton {
    font-size: 1.4rem;
    margin: 0 0.u5rem
- //  font-family: ? ;
+   font-family: "Lato", sans-serif;
    background: none;
    outline: none;
    color: lime;
@@ -96,7 +96,7 @@ item_input {
 .removeButton {
    font-size: 1.4rem;
    margin: 0 0.75rem;
-   //font-family: ;
+   font-family: "Lato", sans-serif;
    background: none;
    outline: none;
    color: lime;
