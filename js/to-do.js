@@ -7,7 +7,7 @@ if(window.localStorage.getItem("shopList") == undefined){
      window.localStorage.setItem("shopList", JSON.stringify(shopList));
 }
 
-var todosEX = window.localStorage.getItem("shopLisy");
+var todosEX = window.localStorage.getItem("shopList");
 var shopList = JSON.parse(todosEX);
 
 
@@ -51,8 +51,8 @@ class item{
     	else{
             input.disabled = !input.disabled;
             edit.innerHTML = "Edit";
-            let indexof = todos.indexOf(name);
-            todos[indexof] = input.value;
+            let indexof = shopList.indexOf(name);
+            shopList[indexof] = input.value;
             window.localStorage.setItem("shopList", JSON.stringify(shopList));
         }
     }
@@ -75,14 +75,14 @@ window.addEventListener('keydown', (e) => {
 function check(){
 	if(inputValue.value != ""){
 		new item(inputValue.value);
-        todos.push(inputValue.value);
+        shopList.push(inputValue.value);
         window.localStorage.setItem("shopList", JSON.stringify(shopList));
 		inputValue.value = "";
 	}
 }
 
 
-for (var i = 0 ; i < todos.length ; i++){
+for (var i = 0 ; i < shopList.length ; i++){
     new item(shopList[i]);
 }
 
