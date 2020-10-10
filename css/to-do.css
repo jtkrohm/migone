@@ -12,9 +12,7 @@
 }
 
 .title{
-	color: lime;
-	text-transform: uppercase;
-	font-weight: 800;
+    text-align: center;
 }
 
 .inputDiv{
