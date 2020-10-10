@@ -53,4 +53,9 @@ class item {
 
    }
 
-add
+addButton.addEventListener('click', check);
+window.addEventListener('keydown', (e)=> {
+   if(e.which==13) {
+       check();
+   }
+})
