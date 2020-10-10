@@ -21,7 +21,7 @@ h1 {
 
 .styling {
    font-weight: 800;
-   color: #fff;
+   color: var(--mainBlack);
 }
 
 .input_div {
@@ -88,7 +88,7 @@ item_input {
    font-family: "Lato", sans-serif;
    background: none;
    outline: none;
-   color: lime;
+   color: var(--primaryColor);
    border: none;
    cursor: pointer;
 }
@@ -99,7 +99,7 @@ item_input {
    font-family: "Lato", sans-serif;
    background: none;
    outline: none;
-   color: lime;
+   color: var(--primaryColor);
    border: none;
    cursor: pointer;
 }
