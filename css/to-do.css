@@ -78,7 +78,7 @@
 	background: none;
 	outline: none;
 	border: none;
-	color: var(--primaryColor);
+	color: var(--secondaryColor);
 	font-size: 1.4rem;
 	font-family: 'Lato', sans-serif;
 	margin: 0 0.5rem;
@@ -89,7 +89,7 @@
 	background: none;
 	outline: none;
 	border: none;
-	color: var(--secondaryColor);
+	color: var(--mainRed);
 	font-size: 1.4rem;
 	font-family: 'Lato', sans-serif;
 	cursor: pointer;
