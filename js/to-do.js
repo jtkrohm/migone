@@ -81,7 +81,7 @@ function check(){
 
 
 for (var i = 0 ; i < todos.length ; i++){
-    new item(todos[v]);
+    new item(todos[i]);
 }
 
 
