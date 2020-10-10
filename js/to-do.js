@@ -2,13 +2,13 @@ const container = document.querySelector('.container');
 var inputValue = document.querySelector('.input');
 const add = document.querySelector('.add');
 
-if(window.localStorage.getItem("todos") == undefined){
-     var todos = [];
-     window.localStorage.setItem("todos", JSON.stringify(todos));
+if(window.localStorage.getItem("shopList") == undefined){
+     var shopList = [];
+     window.localStorage.setItem("shopList", JSON.stringify(shopList));
 }
 
-var todosEX = window.localStorage.getItem("todos");
-var todos = JSON.parse(todosEX);
+var todosEX = window.localStorage.getItem("shopLisy");
+var shopList = JSON.parse(todosEX);
 
 
 class item{
@@ -46,14 +46,14 @@ class item{
     edit(input, name){
         if(input.disabled == true){
            input.disabled = !input.disabled;
-           edit.innerHTML = "Edit";
+           edit.innerHTML = "Save";
         }
     	else{
             input.disabled = !input.disabled;
-            edit.innerHTML = "Save";
+            edit.innerHTML = "Edit";
             let indexof = todos.indexOf(name);
             todos[indexof] = input.value;
-            window.localStorage.setItem("todos", JSON.stringify(todos));
+            window.localStorage.setItem("shopList", JSON.stringify(shopList));
         }
     }
 
@@ -61,7 +61,7 @@ class item{
         itemBox.parentNode.removeChild(itemBox);
         let index = todos.indexOf(name);
         todos.splice(index, 1);
-        window.localStorage.setItem("todos", JSON.stringify(todos));
+        window.localStorage.setItem("shopList", JSON.stringify(shopList));
     }
 }
 
@@ -76,14 +76,14 @@ function check(){
 	if(inputValue.value != ""){
 		new item(inputValue.value);
         todos.push(inputValue.value);
-        window.localStorage.setItem("todos", JSON.stringify(todos));
+        window.localStorage.setItem("shopList", JSON.stringify(shopList));
 		inputValue.value = "";
 	}
 }
 
 
 for (var i = 0 ; i < todos.length ; i++){
-    new item(todos[i]);
+    new item(shopList[i]);
 }
 
 
