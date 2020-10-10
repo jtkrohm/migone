@@ -59,7 +59,7 @@ class item{
 
     remove(itemBox, name){
         itemBox.parentNode.removeChild(itemBox);
-        let index = todos.indexOf(name);
+        let index = shopList.indexOf(name);
         todos.splice(index, 1);
         window.localStorage.setItem("shopList", JSON.stringify(shopList));
     }
