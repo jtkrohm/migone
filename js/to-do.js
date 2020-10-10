@@ -46,9 +46,11 @@ class item{
     edit(input, name){
         if(input.disabled == true){
            input.disabled = !input.disabled;
+           edit.innerHTML = "Edit";
         }
     	else{
             input.disabled = !input.disabled;
+            edit.innerHTML = "Save";
             let indexof = todos.indexOf(name);
             todos[indexof] = input.value;
             window.localStorage.setItem("todos", JSON.stringify(todos));
