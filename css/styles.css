@@ -281,7 +281,7 @@ span.search-box a:hover search-txt {
   top: 70%;
   right: 0;
  // background: transparent;
-  opacity: 0.5;
+  opacity: 0.3;
   border: 1px solid var(--primaryColor);
   text-transform: uppercase;
   padding: 0.5rem 0.75rem;
@@ -305,6 +305,7 @@ span.search-box a:hover search-txt {
 }
 .img-container:hover .bag-btn {
   //transform: translateX(0);
+  background: transparent;
 }
 .product-img {
   display: block;
