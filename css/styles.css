@@ -303,7 +303,7 @@ span.search-box a:hover search-txt {
   margin-right: 0.5rem;
 }
 .img-container:hover .bag-btn {
-  transform: translateX(0);
+  //transform: translateX(0);
 }
 .product-img {
   display: block;
