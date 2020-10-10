@@ -94,7 +94,7 @@ div.scrollproducts {
   align-items: center;
 }
 div.scrollproducts div {
-  display: inline-block
+  display: inline-block;
   align-items: center;
   width: 300px;
   padding: 0 0 0 0.6rem;
