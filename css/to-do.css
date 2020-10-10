@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root {
+  --secondaryColor: #f09d51; 
+  --primaryColor: #4a5d23;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainRed: #8B0000;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.2s linear;
+}
+
 h1 {
    font-size: 3rem;
    font-weight: 50;
