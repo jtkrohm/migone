@@ -46,11 +46,11 @@ class item{
     edit(input, name){
         if(input.disabled == true){
            input.disabled = !input.disabled;
-           edit.innerHTML = "Save";
+          // edit.innerHTML = "Save";
         }
     	else{
             input.disabled = !input.disabled;
-            edit.innerHTML = "Edit";
+           // edit.innerHTML = "Edit";
             let indexof = shopList.indexOf(name);
             shopList[indexof] = input.value;
             window.localStorage.setItem("shopList", JSON.stringify(shopList));
