@@ -78,7 +78,7 @@ div.scrollmenu button {
   display: inline-block;
   text-align: center;
   white-space: nowrap; 
-  padding: 0.1rem 1rem;
+  margin: 0.1rem 1rem;
   background-color: rgba(74, 93, 35, 0.7);
   border-radius: 1rem;
   color: var(--mainRed);
@@ -95,10 +95,11 @@ div.scrollproducts {
 }
 div.scrollproducts div {
   display: inline-block;
+  font-size:0.6rem;
   align-items: center;
   width: 300px;
-  padding: 0 0 0 1rem;
-  box-shadow: 1px 2px 8px #888888;
+  margin: 0 1rem;
+  box-shadow: 1px 1px 8px #888888;
 }
 div.scrollproducts h2 {
   text-transform: capitalize;
