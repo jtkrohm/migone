@@ -333,6 +333,8 @@ span.search-box a:hover search-txt {
 
 .product {
   box-shadow: 1px 2px 8px #888888;
+  align-items: center;
+  padding: 0;
 }
 
 article.product h2 {
