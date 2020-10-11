@@ -95,6 +95,6 @@
 	font-family: 'Lato', sans-serif;
 	cursor: pointer;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
         .input{ width: 500px; }
 }
