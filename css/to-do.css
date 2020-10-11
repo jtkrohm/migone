@@ -17,7 +17,6 @@
 
 .inputDiv{
     display: flex;
-    position: sticky;
     justify-content: center;
     align-items: center;
     box-shadow: 5px 10px 8px #888888;
@@ -60,15 +59,14 @@
 	align-items: center;
 	text-align: center;
 	margin-top: 2rem;
+        overflow-y: scroll;
 }
 
 .item{
 	padding: 0.5rem;
-        position: sticky;
-        top: 0;
 	margin-bottom: 1.5rem;
         box-shadow: 1px 2px 8px #888888
-};
+}
 
 .item_input{
 	background: none;
