@@ -17,6 +17,7 @@
 
 .inputDiv{
     display: flex;
+    position: sticky;
     justify-content: center;
     align-items: center;
     box-shadow: 5px 10px 8px #888888;
