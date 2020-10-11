@@ -95,11 +95,23 @@ div.scrollproducts {
 }
 div.scrollproducts div {
   display: inline-block;
-  font-size:0.6rem;
   align-items: center;
   width: 300px;
   margin: 0.5rem 1rem;
   box-shadow: 1px 1px 8px #888888;
+}
+
+div.scrollproducts div.square-button {
+  font-size:0.6rem;
+  border: 1px solid var(--primaryColor);
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  margin: 0.5rem 0;
+  letter-spacing: var(--mainSpacing);
+  font-weight: bold;
+  justify-content: center;
+   align-items: center;
+  cursor: pointer;
 }
 div.scrollproducts h2 {
   text-transform: capitalize;
