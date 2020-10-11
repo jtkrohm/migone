@@ -449,7 +449,7 @@ article.product div.center-btn {
   padding: 0rem;
 }
 .cart-item div { 
-  padding: 0rem;
+  padding: 0 1rem;
 }
 .cart-item p {
   font-size: 1.5rem;
