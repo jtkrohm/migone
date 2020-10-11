@@ -98,17 +98,17 @@ div.scrollproducts {
 div.scrollproducts div {
   display: inline-block;
   align-items: center;
-  width: 320px;
+  width: 350px;
   margin: 0.3rem ;
   padding: 0.1rem ;
   box-shadow: 1px 1px 8px #888888;
 }
-
+//######################################
 div.scrollproducts div.square-button {
   font-size:0.9rem;
   border: 1px solid var(--primaryColor);
   text-transform: uppercase;
-  max-width: 300px;
+  max-width: 270px;
   padding: 0;
   margin: 0.5rem 1.5rem;
   letter-spacing: var(--mainSpacing);
