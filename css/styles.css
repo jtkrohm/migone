@@ -417,7 +417,12 @@ article.product div.center-btn {
   display: grid;
   align-items: center;
   grid-template-columns: auto 1fr auto;
-  grid-column-gap: 1.5rem;
+  grid-column-gap: 1rem;
+  //display: flex;
+//flex-direction: column;
+  white-space: nowrap; 
+  justify-content: center;
+  text-align: center;
   margin: 1.5rem 0;
 }
 .close-cart {
