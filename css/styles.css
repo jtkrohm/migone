@@ -78,8 +78,8 @@ div.scrollmenu button {
   display: inline-block;
   text-align: center;
   white-space: nowrap; 
-  margin: 0.1rem .3rem;
-  padding: 0.1re. 2rem;
+  margin: 0.1rem 0.15rem;
+  padding: 0.1rem 4rem;
   background-color: rgba(74, 93, 35, 0.7);
   border-radius: 1rem;
   color: var(--mainRed);
@@ -106,10 +106,10 @@ div.scrollproducts div.square-button {
   font-size:0.6rem;
   border: 1px solid var(--primaryColor);
   text-transform: uppercase;
-  padding: 0.3rem;
-  margin: 0.5rem 0.7rem;
+  padding: 0.1rem;
+  margin: 0.5rem 1.5rem;
   letter-spacing: var(--mainSpacing);
-  font-weight: bold;
+  font-weight: 500;
   justify-content: center;
   align-items: center;
   cursor: pointer;
