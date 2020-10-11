@@ -286,7 +286,7 @@ span.search-box a:hover search-txt {
   position: relative;
   overflow: hidden;
   max-height: 425px;
-  padding: 0 0.5rem;
+  padding: 0;
 }
 .bag-btn {
   position: absolute;
