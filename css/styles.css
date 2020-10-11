@@ -78,7 +78,7 @@ div.scrollmenu button {
   display: inline-block;
   text-align: center;
   white-space: nowrap; 
-  margin: 0.1rem 0.15rem;
+  margin: 0.3rem 0.15rem;
   padding: 0.1rem 2.5rem;
   background-color: rgba(74, 93, 35, 0.7);
   border-radius: 1rem;
@@ -98,8 +98,8 @@ div.scrollproducts div {
   display: inline-block;
   align-items: center;
   width: 320px;
-  margin: 0.3rem ;
-  padding: 0 0.3rem;
+  margin: 0.3rem 0;
+  padding: 0.1rem 0;
   box-shadow: 1px 1px 8px #888888;
 }
 
