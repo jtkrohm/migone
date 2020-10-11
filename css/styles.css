@@ -418,7 +418,7 @@ article.product div.center-btn {
   display: grid;
   align-items: center;
   grid-template-columns: auto 1fr auto;
-  grid-column-gap: 1rem;
+  grid-column-gap: 0.4rem;
   //display: flex;
 //flex-direction: column;
   white-space: nowrap; 
