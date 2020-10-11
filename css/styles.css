@@ -248,6 +248,7 @@ span.search-box a:hover search-txt {
   transition: var(--mainTransition);
   cursor: pointer;
 }
+
 .product-section {
   border-style: groove;
   padding: 4rem 0;
