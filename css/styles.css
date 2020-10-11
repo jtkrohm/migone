@@ -89,7 +89,7 @@ div.scrollproducts {
   overflow-y: hidden; 
   white-space: nowrap; 
   max-height: 450px;
-  padding: 0 0.3rem;
+  padding: 2rem 0.3rem;
   display: flex; 
   align-items: center;
 }
@@ -99,8 +99,8 @@ div.scrollproducts div {
   width: 300px;
   padding: 0 0 0 0.6rem;
   //border-style: groove;
- // background-color: rgba(74, 93, 35, 0.4);
-//  border-radius: 1rem;
+  // background-color: rgba(74, 93, 35, 0.4);
+  //border-radius: 1rem;
 }
 div.scrollproducts h2 {
   text-transform: capitalize;
