@@ -64,9 +64,10 @@
 
 .item{
 	padding: 0.5rem;
-	border-bottom: 4px solid #fff;
+	//border-bottom: 1px solid #888888
 	margin-bottom: 1.5rem;
-}
+        box-shadow: 5px 10px 8px #888888
+};
 
 .item_input{
 	background: none;
