@@ -327,6 +327,7 @@ article.product h3 {
   text-transform: capitalize;
   font-size: 1rem;
   margin-top: 1rem;
+  color: var(--primaryColor);
   letter-spacing: var(--mainSpacing);
   text-align: center;
 }
