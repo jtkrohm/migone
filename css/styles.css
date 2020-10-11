@@ -426,6 +426,7 @@ article.product div.center-btn {
   text-align: center;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 2rem;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .cart-item img {
