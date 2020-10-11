@@ -27,7 +27,7 @@
     border: none;
     height: 50px;
     border-radius: 25px;
-    width: 350px;
+    max-width: 350px;
     margin: 0.25rem;
     transition: .5s;
     font-size: 1.15rem;
@@ -96,5 +96,5 @@
 	cursor: pointer;
 }
 @media screen and (max-width: 768px) {
-        .input{ width: 500px; }
+        .input{max-width: 500px; }
 }
