@@ -21,6 +21,7 @@ body {
   font-family: "Lato", sans-serif;
   overflow- x: hidden;
   display: block;
+  width: 100%;
 }
 body a {
  text-decoration: none;
@@ -103,7 +104,6 @@ div.scrollproducts div {
   padding: 0.3rem 0.1rem ;
   box-shadow: 1px 1px 8px #888888;
 }
-
 
 .bag-btn-vend{
   font-size:0.7rem;
