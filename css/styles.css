@@ -335,7 +335,11 @@ span.search-box a:hover search-txt {
 }
 .product-img {
   display: block;
-  width: 100%;
+  width: 80vw;
+// width must be equal to image container
+  overflow: hidden;
+  max-width: 400px;
+  padding: 0;
   min-height: 12rem;
   transition: var(--mainTransition);
 }
@@ -484,7 +488,7 @@ article.product div.center-btn {
   width: 100px;
   height: 100px;
   padding: 0;
-  transform: translateX(1rem);
+  transform: translateX(0.4rem);
 }
 .cart-item div { 
   padding: 0 1rem;
