@@ -88,12 +88,13 @@ div.scrollmenu button {
 }
 div.scrollproducts { 
   overflow-x: scroll; 
-  overflow-y: hidden; 
+  overflow-y: hidden;  
+  width: 95vw;
   white-space: nowrap; 
   max-height: 425px;
   padding: 0.2rem;
   margin: 0.2rem;
-  max-width: 400px;
+  max-width: 600px;
 }
 div.scrollproducts div {
   display: inline-block;
@@ -290,16 +291,16 @@ span.search-box a:hover search-txt {
 .img-container {
   position: relative;
   overflow: hidden;
-  width: 80vw;
-  max-width: 400px;
+  width: 95vw;
+  max-width: 600px;
   padding: 0;
   max-height: 450px;
 }
 .img-container-prod {
   position: relative;
   overflow: hidden;
-  width: 80vw;
-  max-width: 400px;
+  width: 95vw;
+  max-width: 600px;
   padding: 0;
 }
 .bag-btn {
@@ -335,10 +336,10 @@ span.search-box a:hover search-txt {
 }
 .product-img {
   display: block;
-  width: 80vw;
+  width: 95vw;
 // width must be equal to image container
   overflow: hidden;
-  max-width: 400px;
+  max-width: 600px;
   padding: 0;
   min-height: 12rem;
   transition: var(--mainTransition);
@@ -351,6 +352,8 @@ span.search-box a:hover search-txt {
   box-shadow: 1px 2px 8px #888888;
   align-items: center;
   padding: 0;
+  width: 95vw;
+  max-width: 600px;
 }
 
 article.product h2 {
