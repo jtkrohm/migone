@@ -1,5 +1,12 @@
 ## Source code for [migone.cc](https://www.migone.cc) 
 
+
+Written with:
+- HTML
+- CSS
+- Vanilla Javascript 
+
+
 ```markdown
 Syntax highlighted code block
 
