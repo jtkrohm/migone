@@ -112,7 +112,7 @@ div.scrollproducts div {
   max-width: 270px;
   padding: 0.2rem;
   background: transparent;
-  margin: 0.5rem 1.5rem;
+  margin: 0.5rem 0.5rem;
   letter-spacing: var(--mainSpacing);
   font-weight: 500;
   justify-content: center;
@@ -153,8 +153,9 @@ img-container-prod {
   max-width:300px} 
 }
 @media screen and (max-width: 768px) {
-div.scrollproducts{
- max-width:300px; } /*to fit with product image*/
+ div.scrollproducts{
+   max-width:300px;
+   } /*to fit with product image*/
 }
 @media screen and (min-width: 768px) {
 div.scrollmenu a {
@@ -396,6 +397,7 @@ article.product div.center-btn {
   height: 100%;
   transition: var(--mainTransition);
   background: rgba(74, 93, 35, 0.3); 
+  //background: url("/images/migone/produce_hero.webp") center/cover no-repeat;
   z-index: 2;
   visibility: hidden;
 }
