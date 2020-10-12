@@ -461,6 +461,14 @@ article.product div.center-btn {
   margin-bottom: 2rem;
   box-shadow: 1px 2px 8px #888888;
 }
+.cart hr {
+ border: 0;
+ height: 1px;
+ background-image: linear-gradient(to right, 
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0));
+}
 
 .cart-item img {
   width: 100px;
@@ -529,6 +537,7 @@ article.product div.center-btn {
  position: relative;
  //bottom: 0;
  width: 100%;
+ margin: 1rem;
  text-align: center;
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
