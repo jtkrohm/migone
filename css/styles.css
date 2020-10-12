@@ -104,8 +104,8 @@ div.scrollproducts div {
   box-shadow: 1px 1px 8px #888888;
 }
 
-div.scrollproducts div.square-button {
-  font-size:0.9rem;
+div.scrollproducts div.square-btn-prod {
+  font-size:0.7rem;
   border: 1px solid var(--primaryColor);
   text-transform: uppercase;
   max-width: 270px;
