@@ -87,7 +87,6 @@ div.scrollmenu button {
   font-size: 1.5rem;
 }
 div.scrollproducts { 
-  display: inline-block;
   overflow-x: scroll; 
   overflow-y: hidden; 
   white-space: nowrap; 
@@ -96,6 +95,7 @@ div.scrollproducts {
   margin: 0.2rem;
 }
 div.scrollproducts div {
+  display: inline-block;
   justify-content: center;
   align-items: center;
   max-width: 325px;
