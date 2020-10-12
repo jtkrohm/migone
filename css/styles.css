@@ -110,7 +110,7 @@ div.scrollproducts div {
   border: 1px solid var(--primaryColor);
   text-transform: uppercase;
   max-width: 270px;
-  padding: 0;
+  padding: 0.2rem;
   background: transparent;
   margin: 0.5rem 1.5rem;
   letter-spacing: var(--mainSpacing);
