@@ -93,11 +93,13 @@ div.scrollproducts {
   max-height: 450px;
   padding: 0;
   display: flex; 
+  justify-content: center;
   align-items: center;
   margin: 0;
 }
 div.scrollproducts div {
   display: inline-block;
+  justify-content: center;
   align-items: center;
   width: 350px;
   margin: 0.3rem ;
@@ -106,6 +108,7 @@ div.scrollproducts div {
 }
 
 .bag-btn-vend{
+  //inside of scrollproducts 
   font-size:0.7rem;
   border: 1px solid var(--primaryColor);
   text-transform: uppercase;
