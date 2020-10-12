@@ -480,7 +480,8 @@ article.product div.center-btn {
 .cart-item img {
   width: 100px;
   height: 100px;
-  padding: 0rem;
+  padding: 0;
+  transform: translateX(1rem);
 }
 .cart-item div { 
   padding: 0 1rem;
