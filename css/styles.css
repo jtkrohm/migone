@@ -98,7 +98,7 @@ div.scrollproducts div {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  max-width: 325px;
+  max-width: 400px;
   margin: 0.3rem ;
   padding: 0.3rem 0.1rem ;
   box-shadow: 1px 1px 8px #888888;
@@ -150,7 +150,8 @@ div.scrollproducts h5 {
 }
 @media screen and (max-width: 768px) {
 img-container-prod {
-  max-width:300px} 
+ // max-width:400px
+ } 
 }
 @media screen and (max-width: 768px) {
  div.scrollproducts{
@@ -294,7 +295,7 @@ span.search-box a:hover search-txt {
 .img-container-prod {
   position: relative;
   overflow: hidden;
-  max-height: 425px;
+  max-width: 400px;
   padding: 0;
 }
 .bag-btn {
@@ -335,7 +336,7 @@ span.search-box a:hover search-txt {
   transition: var(--mainTransition);
 }
 .img-container:hover .product-img {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .product {
