@@ -276,9 +276,9 @@ span.search-box a:hover search-txt {
   letter-spacing: var(--mainSpacing);
 }
 .products-center {
-  width: 90vw;
+  width: 96vw;
   margin: 0 ;
-  max-width: 1170px;
+  max-width: 98vw;
   display: grid; 
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 1.1rem;
