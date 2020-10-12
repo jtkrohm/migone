@@ -109,6 +109,7 @@ div.scrollproducts div.square-button {
   border: 1px solid var(--primaryColor);
   text-transform: uppercase;
   max-width: 270px;
+  height: 10px;
   padding: 0;
   margin: 0.5rem 1.5rem;
   letter-spacing: var(--mainSpacing);
