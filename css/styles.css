@@ -15,11 +15,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-html , body {
+ body {
   color: var(--mainBlack);
   background: var(--mainGrey);
   font-family: "Lato", sans-serif;
-  overflow- x: hidden;
+  //overflow- x: hidden;
   display: block;
   width: 100%;
 }
@@ -43,7 +43,7 @@ body a {
 .navbar-center {
   width: 100%;
   max-width: 1170px; 
-  margin: 0 auto;
+  margin: 0 ;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,7 +67,7 @@ body a {
 div.scrollmenu {  
   position: sticky;
   top: 48px;
-  overflow-x: auto; 
+  overflow-x: scroll; 
   overflow-y: hidden; 
   height: 33px; 
   display: flex; 
@@ -89,7 +89,6 @@ div.scrollmenu button {
 div.scrollproducts { 
   overflow-x: scroll; 
   overflow-y: hidden;  
-  width: 95vw;
   white-space: nowrap; 
   max-height: 425px;
   padding: 0.2rem;
@@ -113,7 +112,7 @@ div.scrollproducts div {
   max-width: 270px;
   padding: 0.2rem;
   background: transparent;
-  margin: 0.5rem 0.5rem;
+  margin: 0.5rem;
   letter-spacing: var(--mainSpacing);
   font-weight: 500;
   justify-content: center;
@@ -156,7 +155,7 @@ img-container-prod {
 }
 @media screen and (max-width: 768px) {
  div.scrollproducts{
-   max-width:300px;
+   //max-width:300px;
    } /*to fit with product image*/
 }
 @media screen and (min-width: 768px) {
@@ -172,14 +171,12 @@ div.scrollmenu a {
   display: inline;
 }
 span.search-box {
-   //transform: translate( -50%, -50%);
    background: var(--mainWhite);
    height: 2.2rem;
    border-radius: 2.2rem;
    padding:0.1rem 0.2rem 0.2rem 0.2rem;
    position: relative;
    cursor: pointer;
-   //visibility: hidden;
 }
 span.search-box a:hover search-txt {
    width: 6rem;
