@@ -312,7 +312,7 @@ span.search-box a:hover search-txt {
   background: transparent;
   border: 1px solid var(--primaryColor);
   text-transform: uppercase;
-  padding: 0.5rem 0.75rem;
+  padding: 0.7rem 0.75rem;
   letter-spacing: var(--mainSpacing);
   font-weight: bold;
   cursor: pointer;
