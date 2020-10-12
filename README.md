@@ -1,13 +1,4 @@
-## Source code for [Link](https://www.migone.cc) written with ### Vanilla Javascript
-
-You can use the [editor on GitHub](https://github.com/jtkrohm/jtkrohm.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-
-
-
-
+## Source code for [migone.cc](https://www.migone.cc) 
 
 ```markdown
 Syntax highlighted code block
@@ -26,4 +17,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
