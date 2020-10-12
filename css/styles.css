@@ -93,12 +93,12 @@ div.scrollproducts {
   max-height: 425px;
   padding: 0.2rem;
   margin: 0.2rem;
+  max-width: 400px;
 }
 div.scrollproducts div {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  max-width: 400px;
   margin: 0.3rem ;
   padding: 0.3rem 0.1rem ;
   box-shadow: 1px 1px 8px #888888;
@@ -290,11 +290,15 @@ span.search-box a:hover search-txt {
 .img-container {
   position: relative;
   overflow: hidden;
+  width: 80vw;
+  max-width: 400px;
+  padding: 0;
   max-height: 450px;
 }
 .img-container-prod {
   position: relative;
   overflow: hidden;
+  width: 80vw;
   max-width: 400px;
   padding: 0;
 }
