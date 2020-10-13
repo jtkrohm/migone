@@ -280,13 +280,13 @@ span.search-box a:hover search-txt {
   letter-spacing: var(--mainSpacing);
 }
 .products-center {
-  width: 96vw;
+  width: 92vw;
   margin: 0 auto;
-  display: grid; 
-  grid-template-columns: repeat(auto-fit, minmax(260px,400px);
-  grid-column-gap: 2rem;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
-  justify-items: center;
  // align-items: center; used for flex
 }
 .img-container {
