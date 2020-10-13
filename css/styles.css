@@ -283,7 +283,8 @@ span.search-box a:hover search-txt {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 1.1rem;
   grid-row-gap: 2rem;
-  align-items: center;
+  justify-items: center;
+ // align-items: center; used for flex
 }
 .img-container {
   position: relative;
