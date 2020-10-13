@@ -93,6 +93,8 @@ div.scrollproducts {
   max-height: 425px;
   padding: 0.2rem;
   margin: 0.2rem;
+  justify-content: center;
+  align-items: center;
   max-width: 600px;
 }
 div.scrollproducts div {
