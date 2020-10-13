@@ -283,6 +283,7 @@ span.search-box a:hover search-txt {
 .products-center {
   width: 92vw;
   margin: 0 auto;
+  padding: 2rem 0;
   max-width: 1170px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, var(--imgWidth)));
