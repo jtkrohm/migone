@@ -258,7 +258,7 @@ span.search-box a:hover search-txt {
 }
 
 .product-section {
-  border-style: groove;
+ // border-style: groove;
   padding: 4rem 0;
   overflow-x: hidden;
   align-items: center;
@@ -281,7 +281,7 @@ span.search-box a:hover search-txt {
 .products-center {
   width: 96vw;
   margin: 0 ;
-  max-width: 98vw;
+  max-width: 400px; /*98vw*/
   display: grid; 
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 2rem;
