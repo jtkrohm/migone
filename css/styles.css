@@ -8,7 +8,7 @@
   --mainGrey: #ececec;
   --mainRed: #8B0000;
   --mainSpacing: 0.1rem;
-  --imgWidth: 360px;
+  --imgWidth: 370px;
   --mainTransition: all 0.2s linear;
 }
 * {
@@ -181,8 +181,8 @@ span.search-box {
    position: relative;
    cursor: pointer;
 }
-span.search-box a:hover search-txt {
-   width: 6rem;
+.search-box:hover search-txt {
+   width: 10rem;
 }
 .search-btn {
    color: var(--mainBlack);
@@ -213,7 +213,8 @@ span.search-box a:hover search-txt {
    font-size: 1.5rem;
    transition: var(--mainTransition);
    line-height: 2rem;
-   width: 5rem;
+  // width: 5rem;
+   width: auto;
 }
 .clock {
   font-family: 'Lato', sans-serif;
