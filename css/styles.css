@@ -293,7 +293,7 @@ span.search-box a:hover search-txt {
   position: relative;
   overflow: hidden;
   width: 95vw;
-  max-width: 400px;
+  max-width: 360px;
   padding: 0;
   max-height: 450px;
 }
@@ -301,7 +301,7 @@ span.search-box a:hover search-txt {
   position: relative;
   overflow: hidden;
   width: 95vw;
-  max-width: 400px;
+  max-width: 360px;
   padding: 0;
 }
 .bag-btn {
@@ -340,7 +340,7 @@ span.search-box a:hover search-txt {
   width: 95vw;
 // width must be equal to image container
   overflow: hidden;
-  max-width: 400px;
+  max-width: 360px;
   padding: 0;
   min-height: 12rem;
   transition: var(--mainTransition);
@@ -354,7 +354,7 @@ span.search-box a:hover search-txt {
   align-items: center;
   padding: 0;
   width: 95vw;
-  max-width: 400px;
+  max-width: 360px;
 }
 
 article.product h2 {
