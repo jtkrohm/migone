@@ -20,7 +20,7 @@
                 </header>
 		<nav class="navbar">
 			<div class="navbar-center">
-                                <button type="button" onclick="document.getElementById('cart0').style.visibility='visible';document.getElementById('cart1').style.transform='translateX(0)'" id="cart-icon">
+                                <button type="button" onclick="openCart()" id="cart-icon">
 					<i class="fas fa-shopping-cart" id="cart-icon"></i>  
 				</button>
 				<a href="/index.html"> <h2 class="logo">Migone.cc</h2></a>  
@@ -78,7 +78,7 @@
 			
 		<div class="cart-overlay" id="cart0">
 			<div class="cart" id="cart1">
-				<button type="button" onclick="openCart()" id="cart-icon">
+				<button type="button" onclick="closeCart()" id="cart-icon">
 					<i class="fas fa-window-close"></i>
 				</button>
 				<h2> Your List </h2>
@@ -98,7 +98,7 @@
 					</div>					
 					<div class="cart-footer">
 						<span class="cart-total"> <h3> Total : $ 0 </h3> </span>
-						<button class= "clear-cart 	banner-btn"> clear list </button>		
+						<button class= "clear-cart banner-btn"> clear list </button>		
 					</div>
 				</div>
 			</div>
