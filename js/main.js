@@ -27,7 +27,8 @@ pageFooter.innerHTML= `
  
 ` ;
 function closeHeader() {
- headerCloseBtn.style.translateY="-100%" ;
+  headerCloseBtn.style.transform="translateY(-100%)" ;
+  headerCloseBtn.style.z-index="-1" ;
 }
 function closeCart() {
   cartO.style.visibility="hidden";
