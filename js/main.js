@@ -4,7 +4,7 @@
 
 const thisYear = new Date().getFullYear();
 const cartO = document.getElementById('cart0')
-const actualCart = document.getElementById('cart0')
+const actualCart = document.getElementById('cart1')
 
 document.getElementById('page-footer').innerHTML= ` 
 		<br>
