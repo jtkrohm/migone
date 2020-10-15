@@ -542,12 +542,14 @@ article.product div.center-btn {
 #page-header {
  width: 100%;
  align-items: center;
+ text-align: center;
+ justify-content: center;
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
  font-size: 0.9rem;
  display: inline;
  transform: translateY(-100%);
-  // transform: translateY(-100%) ;
+ visibility: hidden ;
 }
 #page-header button {
  display: inline-block;
