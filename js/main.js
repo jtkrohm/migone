@@ -3,10 +3,12 @@
 //modular js files
 
 const thisYear = new Date().getFullYear();
-const cartO = document.getElementById('cart0')
-const actualCart = document.getElementById('cart1')
-const headerCloseBtn = document.getElementById('header-close')
-document.getElementById('page-footer').innerHTML= ` 
+const cartO = document.getElementById('cart0');
+const actualCart = document.getElementById('cart1');
+const headerCloseBtn = document.getElementById('header-close-btn');
+const pageFooter = document.getElementById('page-footer');
+
+pageFooter.innerHTML= ` 
 		<br>
 		<hr>
                 <p> Copyright &copy; <span> ${thisYear} </span> migone.cc </p>
