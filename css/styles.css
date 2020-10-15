@@ -550,7 +550,7 @@ article.product div.center-btn {
  text-color: var(--mainBlack);
  font-size: 0.9rem;
  display: inline;
- translateY: -100% ;
+ //translateY: -100% ;
 }
 #page-header button {
  display: inline-block;
