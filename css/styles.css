@@ -549,10 +549,10 @@ article.product div.center-btn {
  transform: translateY(0);
   // transform: translateY(-100%) ;
 }
-.page-header button {
+#page-header button {
  display: inline-block;
 }
-.page-header p {
+#page-header p {
  display: inline-block;
 }
 .page-footer {
