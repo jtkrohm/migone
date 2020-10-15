@@ -548,7 +548,7 @@ article.product div.center-btn {
  text-color: var(--mainBlack);
  font-size: 0.9rem;
  display: inline;
- //transform: translateY(-100vh);
+ transform: translateY(-100vh);
  visibility: hidden ;
 }
 #page-header button {
@@ -571,13 +571,13 @@ article.product div.center-btn {
 }
 
 .page-footer hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, 
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, 
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.75), 
       rgba(0, 0, 0, 0));
 }
 #footer-icon {
- font-size: 1.4rem;
+  font-size: 1.4rem;
 }
