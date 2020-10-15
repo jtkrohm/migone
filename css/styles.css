@@ -225,7 +225,7 @@ span.search-box {
 }
 
 .banner-background {
-  min-height: calc(100vh - 48px);
+  min-height: calc(100vh - 81px);
   background: url("/images/migone/produce_hero.webp") center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -244,7 +244,7 @@ span.search-box {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   text-color: var(--mainBlack);
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 .banner-btn {
   padding: 1rem 3rem;
