@@ -546,6 +546,7 @@ article.product div.center-btn {
  font-size:0.7rem;
  display: inline;
  translateY: 0;
+  // translateY: -100% ;
 }
 .page-header button {
  display: inline-block;
