@@ -8,6 +8,7 @@ const actualCart = document.getElementById('cart1');
 const pageHeader = document.getElementById('page-header');
 const pageFooter = document.getElementById('page-footer');
 
+{
 pageFooter.innerHTML= ` 
 		<br>
 		<hr>
@@ -26,6 +27,7 @@ pageFooter.innerHTML= `
                 <p> <a href="/html/terms.html">Terms and Agreements </a> </p>
  
 ` ;
+ }
 function closeHeader() {
   pageHeader.style.transform="translateY(-100%)" ;
   pageHeader.style.z-index="-1" ;
