@@ -538,7 +538,7 @@ article.product div.center-btn {
 
 #page-header {
  width: 100%;
- text-align: center;
+ align-items: center;
  background: var(--mainGrey); 
  text-color: var(--mainBlack);
  font-size: 0.9rem;
@@ -551,6 +551,7 @@ article.product div.center-btn {
 }
 #page-header p {
  display: inline-block;
+ text-align: center;
 }
 .page-footer {
  position: relative;
