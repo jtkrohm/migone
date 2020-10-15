@@ -541,7 +541,8 @@ article.product div.center-btn {
 
 #page-header {
  width: 100%;
- top: calc(0- 100%);
+ top: 0;
+ position: absolute;
  align-items: center;
  text-align: center;
  justify-content: center;
@@ -549,9 +550,7 @@ article.product div.center-btn {
  text-color: var(--mainBlack);
  font-size: 0.9rem;
  display: inline;
- overflow-y: hidden;
- //transform: translateY(-100%);
- //visibility: hidden ;
+ translateY: -100% ;
 }
 #page-header button {
  display: inline-block;
