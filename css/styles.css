@@ -536,7 +536,7 @@ article.product div.center-btn {
   margin-bottom: 1rem;
 }
 
-.page-header {
+#page-header {
  position: absolute;
  top: 0;
  z-index: 2;
@@ -546,8 +546,8 @@ article.product div.center-btn {
  text-color: var(--mainBlack);
  font-size:0.7rem;
  display: inline;
- translateY: 0;
-  // translateY: -100% ;
+ transform: translateY(0);
+  // transform: translateY(-100%) ;
 }
 .page-header button {
  display: inline-block;
