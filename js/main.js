@@ -5,7 +5,7 @@
 const thisYear = new Date().getFullYear();
 const cartO = document.getElementById('cart0')
 const actualCart = document.getElementById('cart1')
-
+const headerCloseBtn = document.getElementById('header-close')
 document.getElementById('page-footer').innerHTML= ` 
 		<br>
 		<hr>
@@ -24,7 +24,9 @@ document.getElementById('page-footer').innerHTML= `
                 <p> <a href="/html/terms.html">Terms and Agreements </a> </p>
  
 ` ;
-
+function closeHeader() {
+ headerCloseBtn.style.translateY="-100%" ;
+}
 function closeCart() {
   cartO.style.visibility="hidden";
   actualCart.style.transform="translateX(-100vw)";
