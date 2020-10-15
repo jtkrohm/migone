@@ -24,9 +24,7 @@ function loadFooter() {
 
                 <p> <a href="/html/contact.html">Contact </a> </p>
   
-                <p> <a href="/html/terms.html">Terms and Agreements </a> </p>
- 
-  ` ;
+                <p> <a href="/html/terms.html">Terms and Agreements </a> </p> ` ;
 }
 function closeHeader() {
   pageHeader.style.transform="translateY(-100%)" ;
