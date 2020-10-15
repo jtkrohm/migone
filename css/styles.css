@@ -548,7 +548,7 @@ article.product div.center-btn {
  text-color: var(--mainBlack);
  font-size: 0.9rem;
  display: inline;
- transform: translateY(-100%);
+ //transform: translateY(-100vh);
  visibility: hidden ;
 }
 #page-header button {
