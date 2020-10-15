@@ -225,7 +225,7 @@ span.search-box {
 }
 
 .banner-background {
-  min-height: calc(100vh - 58px);
+  min-height: calc(100vh - 48px);
   background: url("/images/migone/produce_hero.webp") center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -549,6 +549,7 @@ article.product div.center-btn {
  text-color: var(--mainBlack);
  font-size: 0.9rem;
  display: inline;
+ overflow-y: hidden;
  //transform: translateY(-100%);
  //visibility: hidden ;
 }
