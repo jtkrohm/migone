@@ -1,17 +1,18 @@
 //core js file
 //modular js file
 //page specific js file ##
+
   const clockTag = document.getElementById('clock');
   const openHourTag = document.getElementById('open-hours');
   const openHourTitle = ' Open Today '; 
-  let today = new Date();
-  let h = today.getHours();
-  let hFinal  = h;
+  var today = new Date();
+  var h = today.getHours();
+  var hFinal  = h;
   const amPm = "am";
-  let m = today.getMinutes();
-  let s = today.getSeconds();
-  let m = checkTime(m);
-  let s = checkTime(s);
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  var m = checkTime(m);
+  var s = checkTime(s);
 
 function sectionTime() {
   if (h > 12) { hFinal = h - 12};
