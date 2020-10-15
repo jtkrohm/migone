@@ -286,6 +286,9 @@ span.search-box {
   padding: 2rem 0;
   max-width: 1170px;
   display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   grid-template-columns: repeat(auto-fit, minmax(260px, var(--imgWidth)));
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
