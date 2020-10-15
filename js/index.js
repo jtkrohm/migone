@@ -2,17 +2,17 @@
 //modular js file
 //page specific js file ##
 
-  const clockTag = document.getElementById('clock');
-  const openHourTag = document.getElementById('open-hours');
-  var openHourTitle = ' Open Today '; 
-  var today = new Date();
-  var h = today.getHours();
-  var hFinal  = h;
-  var amPm = "am";
-  var m = today.getMinutes();
-  var s = today.getSeconds();
-  var m = checkTime(m);
-  var s = checkTime(s);
+const clockTag = document.getElementById('clock');
+const openHourTag = document.getElementById('open-hours');
+var openHourTitle = ' Open Today '; 
+var today = new Date();
+var h = today.getHours();
+var hFinal  = h;
+var amPm = "am";
+var m = today.getMinutes();
+var s = today.getSeconds();
+var m = checkTime(m);
+var s = checkTime(s);
 
 function sectionTime() {
   if (h > 12) { hFinal = h - 12};
