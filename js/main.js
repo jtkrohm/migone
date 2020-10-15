@@ -1,9 +1,8 @@
-const thisYear = new Date().getFullYear();
+//core js files  ##
+//page-specific js files
+//modular js files
 
-//querySelect or getElement by id the footer
-// setup up text in a function
-//innerhtml ,innertext? /document write / create Element / 
-// addList/ inner Child it to screen
+const thisYear = new Date().getFullYear();
 
 document.getElementById('page-footer').innerHTML= ` 
 		<br>
