@@ -8,8 +8,8 @@ const actualCart = document.getElementById('cart1');
 const pageHeader = document.getElementById('page-header');
 const pageFooter = document.getElementById('page-footer');
 
-function loadFooter() {
-  pageFooter.innerHTML= ` 
+
+pageFooter.innerHTML= ` 
 		<br>
 		<hr>
                 <p> Copyright &copy; <span> ${thisYear} </span> migone.cc </p>
@@ -25,7 +25,6 @@ function loadFooter() {
                 <p> <a href="/html/contact.html">Contact </a> </p>
   
                 <p> <a href="/html/terms.html">Terms and Agreements </a> </p> ` ;
-}
 
 function closeHeader() {
   pageHeader.style.transform="translateY(-100%)" ;
