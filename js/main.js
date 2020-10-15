@@ -3,6 +3,8 @@
 //modular js files
 
 const thisYear = new Date().getFullYear();
+const cartO = document.getElementById('cart0')
+const actualCart = document.getElementById('cart0')
 
 document.getElementById('page-footer').innerHTML= ` 
 		<br>
@@ -24,11 +26,11 @@ document.getElementById('page-footer').innerHTML= `
 ` ;
 
 function closeCart() {
-  document.getElementById('cart0').style.visibility="hidden";
-  document.getElementById('cart1').style.transform="translateX(-100vw)";
+  cartO.style.visibility="hidden";
+  actualCart.style.transform="translateX(-100vw)";
 }
 
 function openCart() {
-  document.getElementById('cart0').style.visibility="visible";
-  document.getElementById('cart1').style.transform="translateX(0)";
+  cartO.style.visibility="visible";
+  actualCart.style.transform="translateX(0)";
 }
