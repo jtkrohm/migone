@@ -26,10 +26,12 @@ function loadFooter() {
   
                 <p> <a href="/html/terms.html">Terms and Agreements </a> </p> ` ;
 }
+
 function closeHeader() {
   pageHeader.style.transform="translateY(-100%)" ;
   pageHeader.style.z-index="-1" ;
 }
+
 function closeCart() {
   cartO.style.visibility="hidden";
   actualCart.style.transform="translateX(-100vw)";
