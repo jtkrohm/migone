@@ -5,7 +5,7 @@
 const thisYear = new Date().getFullYear();
 const cartO = document.getElementById('cart0');
 const actualCart = document.getElementById('cart1');
-const headerCloseBtn = document.getElementById('header-close-btn');
+const pageHeader = document.getElementById('page-header');
 const pageFooter = document.getElementById('page-footer');
 
 pageFooter.innerHTML= ` 
@@ -27,8 +27,8 @@ pageFooter.innerHTML= `
  
 ` ;
 function closeHeader() {
-  headerCloseBtn.style.transform="translateY(-100%)" ;
-  headerCloseBtn.style.z-index="-1" ;
+  pageHeader.style.transform="translateY(-100%)" ;
+  pageHeader.style.z-index="-1" ;
 }
 function closeCart() {
   cartO.style.visibility="hidden";
