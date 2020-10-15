@@ -4,11 +4,11 @@
 
   const clockTag = document.getElementById('clock');
   const openHourTag = document.getElementById('open-hours');
-  const openHourTitle = ' Open Today '; 
+  var openHourTitle = ' Open Today '; 
   var today = new Date();
   var h = today.getHours();
   var hFinal  = h;
-  const amPm = "am";
+  var amPm = "am";
   var m = today.getMinutes();
   var s = today.getSeconds();
   var m = checkTime(m);
