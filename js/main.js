@@ -28,16 +28,19 @@ function loadFooter() {
 } 
 
 function closeHeader() {
+//add event listener 
   pageHeader.style.transform="translateY(-100%)" ;
   pageHeader.style.z-index="-1" ;
 }
 
 function closeCart() {
+//add event listener
   cartO.style.visibility="hidden";
   actualCart.style.transform="translateX(-100vw)";
 }
 
 function openCart() {
+//add event listener
   cartO.style.visibility="visible";
   actualCart.style.transform="translateX(0)";
 }
