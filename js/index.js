@@ -8,7 +8,7 @@ var openHourTitle = ' Open Today ';
 
 document.addEventListener('DOMContentLoaded', function() {
     // IIFE 1
-  (function() {
+  (function sectionTime() {
     var today = new Date();
     var h = today.getHours();
     var hFinal  = h;
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     s = checkTime(s);
     clockTag.innerHTML =
     hFinal + ":" + m + ":" + s + " " + amPm; 
-    var t = setTimeout(sectionTime, 500);
+    var t = setTimeout(sectionTime(), 500);
 
     var today = new Date();
     var h = today.getHours();
