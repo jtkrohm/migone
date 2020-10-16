@@ -3,8 +3,11 @@
 //modular js files
 
 const thisYear = new Date().getFullYear();
+//const cartIcon = document.getElementById('cart0');
+//const closeCartBtn = document.getElementById('cart0');
 const cartO = document.getElementById('cart0');
 const actualCart = document.getElementById('cart1');
+//const pageHeaderBtn = document.getElementById('cart1');
 const pageHeader = document.getElementById('page-header');
 const pageFooter = document.getElementById('page-footer');
 
@@ -38,21 +41,39 @@ document.addEventListener('DOMContentLoaded', function() {
 });
  
 
-function closeHeader() {
-//add event listener 
-  pageHeader.style.transform="translateY(-100%)" ;
-  pageHeader.style.z-index="-1" ;
-}
+pageHeaderBtn.addEventListener('click', function() {
+    // IIFE 1
+  (function() {
+    pageHeader.style.transform="translateY(-100%)" ;
+    pageHeader.style.z-index="-1" ;
+  })();
+   // IIFE 2
+  //(function() {
+  //})();
 
-function closeCart() {
-//add event listener
-  cartO.style.visibility="hidden";
-  actualCart.style.transform="translateX(-100vw)";
-}
+});
 
-function openCart() {
-//add event listener
-  cartO.style.visibility="visible";
-  actualCart.style.transform="translateX(0)";
-}
+document.addEventListener('click', function() {
+    // IIFE 1
+  (function() {
+    cartO.style.visibility="hidden";
+    actualCart.style.transform="translateX(-100vw)";
+  })();
+   // IIFE 2
+  //(function() {
+  //})();
+
+});
+
+document.addEventListener('click', function() {
+    // IIFE 1
+  (function() {
+    cartO.style.visibility="visible";
+    actualCart.style.transform="translateX(0)";
+  })();
+   // IIFE 2
+  //(function() {
+  //})();
+
+});
 
