@@ -34,7 +34,15 @@ document.addEventListener('DOMContentLoaded', function() {
     m = checkTime(m);
     s = checkTime(s);
     openHourTag.innerHTML = openHourTitle; 
-}
+  })();
+
+   // IIFE 2
+  //(function() {
+
+  //})();
+
+
+});
 
 function checkTime(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
