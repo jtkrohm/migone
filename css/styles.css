@@ -542,6 +542,7 @@ article.product div.center-btn {
 #page-header {
  width: 100%;
  top: 0;
+ height: 25px ;
  position: absolute;
  align-items: center;
  text-align: center;
