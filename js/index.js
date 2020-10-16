@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     s = checkTime(s);
     clockTag.innerHTML =
     hFinal + ":" + m + ":" + s + " " + amPm; 
-    var t = setTimeout(sectionTime(), 500);
+    var t = setTimeout(sectionTime, 500);
 
     var today = new Date();
     var h = today.getHours();
