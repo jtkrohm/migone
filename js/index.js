@@ -19,7 +19,7 @@ function sectionTime() {
   s = checkTime(s);
   clockTag.innerHTML =
   hFinal + ":" + m + ":" + s + " " + amPm; 
-  var t = setTimeout(startTime, 500);
+  var t = setTimeout(sectionTime, 500);
 
   var today = new Date();
   var h = today.getHours();
