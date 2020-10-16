@@ -6,9 +6,7 @@ const clockTag = document.getElementById('clock');
 const openHourTag = document.getElementById('open-hours');
 var openHourTitle = ' Open Today '; 
 
-document.addEventListener('DOMContentLoaded', function() {
-    // IIFE 1
-  (function sectionTime() {
+function sectionTime() {
     var today = new Date();
     var h = today.getHours();
     var hFinal  = h;
@@ -37,13 +35,12 @@ document.addEventListener('DOMContentLoaded', function() {
   })();
 
    // IIFE 2
-  (function checkTime(i) {
+function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
-  })();
+};
 
-
-});
+document.addEventListener('DOMContentLoaded', sectionTime() );
 
 
 
