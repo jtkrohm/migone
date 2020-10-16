@@ -41,3 +41,6 @@ function startTime() {
   hFinal + ":" + m + ":" + s + " " + amPm; 
   var t = setTimeout(startTime, 500);
 }
+
+sectionTime();
+startTime();
