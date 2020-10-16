@@ -8,8 +8,10 @@ const actualCart = document.getElementById('cart1');
 const pageHeader = document.getElementById('page-header');
 const pageFooter = document.getElementById('page-footer');
 
-function loadFooter() {
- pageFooter.innerHTML= ` 
+document.addEventListener('DOMContentLoaded', function() {
+    // IIFE 1
+  (function() {
+    pageFooter.innerHTML= ` 
 		<br>
 		<hr>
                 <p> Copyright &copy; <span> ${thisYear} </span> migone.cc </p>
@@ -25,7 +27,16 @@ function loadFooter() {
                 <p> <a href="/html/contact.html">Contact </a> </p>
   
                 <p> <a href="/html/terms.html">Terms and Agreements </a> </p> ` ;
-} 
+  })();
+
+   // IIFE 2
+  //(function() {
+
+  //})();
+
+
+});
+ 
 
 function closeHeader() {
 //add event listener 
@@ -45,4 +56,3 @@ function openCart() {
   actualCart.style.transform="translateX(0)";
 }
 
-loadFooter();
