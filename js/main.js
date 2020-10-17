@@ -11,9 +11,7 @@ const actualCart = document.getElementById('cart1');
 const pageHeader = document.getElementById('page-header');
 const pageFooter = document.getElementById('page-footer');
 
-document.addEventListener('DOMContentLoaded', function() {
-    // IIFE 1
-  (function() {
+pageFooter.addEventListener('DOMContentLoaded', function() {
     pageFooter.innerHTML= ` 
 		<br>
 		<hr>
@@ -30,28 +28,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p> <a href="/html/contact.html">Contact </a> </p>
   
                 <p> <a href="/html/terms.html">Terms and Agreements </a> </p> ` ;
-  })();
+}
 
-   // IIFE 2
-  //(function() {
-
-  //})();
-
-
-});
  
 
 pageHeaderBtn.addEventListener('click', function() {
-    // IIFE 1
-  (function() {
     pageHeader.style.transform="translateY(-100%)" ;
     pageHeader.style.z-index="-1" ;
-  })();
-   // IIFE 2
-  //(function() {
-  //})();
-
-});
+}
 
 document.addEventListener('click', function() {
     // IIFE 1
