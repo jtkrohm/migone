@@ -37,27 +37,13 @@ pageHeaderBtn.addEventListener('click', function() {
     pageHeader.style.z-index="-1" ;
 }
 
-document.addEventListener('click', function() {
-    // IIFE 1
-  (function() {
+closeCartBtn.addEventListener('click', function() {
     cartO.style.visibility="hidden";
     actualCart.style.transform="translateX(-100vw)";
-  })();
-   // IIFE 2
-  //(function() {
-  //})();
+}});
 
-});
-
-document.addEventListener('click', function() {
-    // IIFE 1
-  (function() {
+cartIcon.addEventListener('click', function() {
     cartO.style.visibility="visible";
     actualCart.style.transform="translateX(0)";
-  })();
-   // IIFE 2
-  //(function() {
-  //})();
-
-});
+}});
 
