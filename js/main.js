@@ -37,8 +37,6 @@ pageHeaderBtn.addEventListener('click', function() {
 });
 */
 
-/*
-
 closeCartBtn.addEventListener('click', function() {
     cartO.style.visibility="hidden";
     actualCart.style.transform="translateX(-100vw)";
@@ -49,4 +47,3 @@ cartIcon.addEventListener('click', function() {
     actualCart.style.transform="translateX(0)";
 });
 
-*/
