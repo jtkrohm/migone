@@ -40,10 +40,12 @@ pageHeaderBtn.addEventListener('click', function() {
 closeCartBtn.addEventListener('click', function() {
     cartOverlay.style.visibility="hidden";
     actualCart.style.transform="translateX(-100vw)";
+    console.log('close cart works');
 });
 
 openCartBtn.addEventListener('click', function() {
     cartOverlay.style.visibility="visible";
     actualCart.style.transform="translateX(0)";
+    console.log('open cart works');
 });
 
