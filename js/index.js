@@ -40,7 +40,7 @@ function checkTime(i) {
     return i;
 };
 
-document.addEventListener('DOMContentLoaded', sectionTime() );
+document.addEventListener('DOMContentLoaded', sectionTime );
 
 
 
