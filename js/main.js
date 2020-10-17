@@ -3,8 +3,8 @@
 //modular js files
 
 const thisYear = new Date().getFullYear();
-//const cartIcon = document.getElementById('cart0');
-//const closeCartBtn = document.getElementById('cart0');
+const cartIcon = document.getElementById('cart-icon');
+const closeCartBtn = document.getElementById('close-cart-icon);
 const cartO = document.getElementById('cart0');
 const actualCart = document.getElementById('cart1');
 const pageHeaderBtn = document.getElementById('page-header-btn');
