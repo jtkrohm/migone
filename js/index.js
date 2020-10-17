@@ -39,7 +39,9 @@ function checkTime(i) {
     return i;
 }
 
-sectionTime() ;
+window.addEventListener("DOMContentLoaded", sectionTime);
+
+
 
 
 
