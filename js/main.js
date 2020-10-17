@@ -40,12 +40,11 @@ pageHeaderBtn.addEventListener('click', function() {
 closeCartBtn.addEventListener('click', function() {
     cartOverlay.style.visibility="hidden";
     actualCart.style.transform="translateX(-100vw)";
-    alert('close cart works');
 });
 
 openCartBtn.addEventListener('click', function() {
     cartOverlay.style.visibility="visible";
     actualCart.style.transform="translateX(0)";
-    alert('open cart works');
+   // alert('open cart works');
 });
 
