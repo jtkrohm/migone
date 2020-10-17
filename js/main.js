@@ -28,22 +28,22 @@ pageFooter.addEventListener('DOMContentLoaded', function() {
                 <p> <a href="/html/contact.html">Contact </a> </p>
   
                 <p> <a href="/html/terms.html">Terms and Agreements </a> </p> ` ;
-}
+});
 
  
 
 pageHeaderBtn.addEventListener('click', function() {
     pageHeader.style.transform="translateY(-100%)" ;
     pageHeader.style.z-index="-1" ;
-}
+});
 
 closeCartBtn.addEventListener('click', function() {
     cartO.style.visibility="hidden";
     actualCart.style.transform="translateX(-100vw)";
-}});
+});
 
 cartIcon.addEventListener('click', function() {
     cartO.style.visibility="visible";
     actualCart.style.transform="translateX(0)";
-}});
+});
 
