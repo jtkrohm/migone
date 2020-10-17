@@ -35,6 +35,9 @@ pageHeaderBtn.addEventListener('click', function() {
     pageHeader.style.transform="translateY(-100%)" ;
     pageHeader.style.z-index="-1" ;
 });
+*/
+
+/*
 
 closeCartBtn.addEventListener('click', function() {
     cartO.style.visibility="hidden";
