@@ -36,7 +36,7 @@ pageHeaderBtn.addEventListener('click', function() {
     pageHeader.style.z-index="-1" ;
 });
 */
-/*
+
 closeCartBtn.addEventListener('click', function() {
     cartOverlay.style.visibility="hidden";
     actualCart.style.transform="translateX(-100vw)";
@@ -46,4 +46,4 @@ openCartBtn.addEventListener('click', function() {
     cartOverlay.style.visibility="visible";
     actualCart.style.transform="translateX(0)";
 });
-*/
+
