@@ -165,7 +165,7 @@ img-container-prod {
 div.scrollmenu a {
   padding:0.4rem 5rem; }
 }
-#cart-icon {
+#cart-icon , #close-cart-icon {
   font-size: 1.4rem;
   position: relative;
   cursor: pointer;
