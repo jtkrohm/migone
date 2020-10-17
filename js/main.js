@@ -3,7 +3,7 @@
 //modular js files
 
 const thisYear = new Date().getFullYear();
-const cartIcon = document.getElementById('cart-icon');
+const openCartBtn = document.getElementById('open-cart-icon');
 const closeCartBtn = document.getElementById('close-cart-icon');
 const cartOverlay = document.getElementById('cart0');
 const actualCart = document.getElementById('cart1');
@@ -42,7 +42,7 @@ closeCartBtn.addEventListener('click', function() {
     actualCart.style.transform="translateX(-100vw)";
 });
 
-cartIcon.addEventListener('click', function() {
+openCartBtn.addEventListener('click', function() {
     cartOverlay.style.visibility="visible";
     actualCart.style.transform="translateX(0)";
 });
