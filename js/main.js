@@ -7,7 +7,7 @@ const thisYear = new Date().getFullYear();
 //const closeCartBtn = document.getElementById('cart0');
 const cartO = document.getElementById('cart0');
 const actualCart = document.getElementById('cart1');
-//const pageHeaderBtn = document.getElementById('cart1');
+const pageHeaderBtn = document.getElementById('page-header-btn');
 const pageHeader = document.getElementById('page-header');
 const pageFooter = document.getElementById('page-footer');
 
