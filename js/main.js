@@ -11,7 +11,7 @@ const pageHeaderBtn = document.getElementById('page-header-btn');
 const pageHeader = document.getElementById('page-header');
 const pageFooter = document.getElementById('page-footer');
 
-pageFooter.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function() {
     pageFooter.innerHTML= ` 
 		<br>
 		<hr>
@@ -29,8 +29,6 @@ pageFooter.addEventListener('DOMContentLoaded', function() {
   
                 <p> <a href="/html/terms.html">Terms and Agreements </a> </p> ` ;
 });
-
- 
 
 pageHeaderBtn.addEventListener('click', function() {
     pageHeader.style.transform="translateY(-100%)" ;
