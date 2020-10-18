@@ -48,9 +48,10 @@ closeCartBtn.addEventListener('click', function() {
     actualCart.style.transform="translateX(-100vw)";
 });
 
+/*
 cartOverlay.addEventListener('click', function() {
     cartOverlay.style.visibility="hidden";
     actualCart.style.transform="translateX(-100vw)";
 });
 
-
+*/
