@@ -50,7 +50,7 @@ class item{
     edit(input, name){
         if(input.disabled == true){
            input.disabled = !input.disabled;
-          // edit.innerHTML = "Save";
+          // use queryselector to get button with class ".edit" (then .innerHTML = "Save");
         }
     	else{
             input.disabled = !input.disabled;
