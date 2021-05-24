@@ -26,8 +26,8 @@ function sectionTime() {
     var h = today.getHours();
     var hFinal  = h;
     var amPm = "am";
-    if (h > 16) {openHourTitle = 'Closing Soon'} ;
-    if (h < 10) {openHourTitle = 'Opening Soon'} ;
+   // if (h > 16) {openHourTitle = 'Closing Soon'} ;
+   // if (h < 10) {openHourTitle = 'Opening Soon'} ;
     var m = today.getMinutes();
     var s = today.getSeconds();
     m = checkTime(m);
