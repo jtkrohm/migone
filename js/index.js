@@ -4,7 +4,8 @@
 
 const clockTag = document.getElementById('clock');
 const openHourTag = document.getElementById('open-hours');
-var openHourTitle = ' Open Today '; 
+//var openHourTitle = ' Open Today '; 
+var openHourTitle = ' Closed for Whit Monday';
 
 function sectionTime() {
     var today = new Date();
